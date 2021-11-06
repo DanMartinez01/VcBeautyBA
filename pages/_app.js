@@ -1,12 +1,10 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import styles from '../styles/Home.module.css'
 
-import { Navbar, Container, NavDropdown, Nav, Carousel } from 'react-bootstrap'
 
-import { CarImg1 } from './Assets/CarImg1.jpg';
+import { Carousel } from 'react-bootstrap';
 import NavComponent from './NavComponent';
-import Footer from './Footer';
+import Footer from '../pages/Footer/Footer';
 
 function MyApp({ Component, pageProps }) {
   return (
