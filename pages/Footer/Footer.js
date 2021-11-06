@@ -24,7 +24,7 @@ export const Footer = () => {
                                 href="https://wa.me/5491130666726"
                                 target="_blank"
                                 rel="noopener noreferrer" >
-                                <SiWhatsapp color="white" /> 1111111111
+                                <SiWhatsapp color="white" /> 111111111
                             </a>
                             <br />
                             <a className={styles.footerLinks} target="_blank" rel="noreferrer"
