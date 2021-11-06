@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>VcBeautyBa</title>
-        <meta name="VcBeautyBA" content="Vc Beauty BA" />
+        <meta name="VcBeautyBA" content="Estética, tratamientos facialesy corporales" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
