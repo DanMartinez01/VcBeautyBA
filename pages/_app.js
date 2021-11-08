@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { Carousel } from 'react-bootstrap';
 import NavComponent from './NavComponent';
+import InfoSection from './InfoSection/InfoSection';
 import Footer from '../pages/Footer/Footer';
 
 import { SiWhatsapp } from 'react-icons/si';
@@ -63,6 +64,7 @@ function MyApp({ Component, pageProps }) {
         </Carousel.Item>
       </Carousel>
       <Component {...pageProps} />
+      <InfoSection />
       <Footer />
     </>
   )

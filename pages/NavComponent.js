@@ -3,8 +3,8 @@ import { FaInstagram } from 'react-icons/fa';
 
 function NavComponent() {
     return (
-        <Navbar bg="light" expand="lg" sticky="top">
-            <Container>
+        <Navbar bg="transparent" expand="lg" sticky="top" navbar="light" >
+            < Container >
                 <Navbar.Brand href="#home">Vc Beauty BA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -16,15 +16,15 @@ function NavComponent() {
                             <NavDropdown.Item href="#action/3.3">Higiene facial</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.4">Antes y Despues</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="#link">Turnos</Nav.Link>
                         <Nav.Link href="#link">Contacto</Nav.Link>
                         <Nav.Link href="#link">
                             <FaInstagram color="black" size="20px" />
                         </Nav.Link>
-
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
-        </Navbar>
+            </Container >
+        </Navbar >
     )
 }
 export default NavComponent

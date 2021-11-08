@@ -1,0 +1,35 @@
+/* .container{
+display: flex;
+flex-direction: row;
+} */
+.categoriesTitle{
+    text-align: center;
+}
+.mainInfoSection {
+    text-decoration: none;
+    color:black;
+    background-color: whitesmoke;
+    padding-top: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+
+.infoSectionLink a{
+    
+    text-decoration: none;
+}
+.a{
+    text-decoration: none;
+}
+
+.infoSectionLink:hover{
+    color: rgb(80, 80, 80);
+}
+.col{
+    margin:1rem;
+    text-decoration: none;
+}

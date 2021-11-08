@@ -2,7 +2,7 @@
 .mainFooter {
     color: #ffffff;
     background-color:#212529;
-    padding-top: 3em;
+    padding-top: 1rem;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -19,6 +19,22 @@
 .mainFooter a:hover {
     color:gray;
 }
+.row{
+   text-align: left;
+   margin: 1rem;
+
+}
 .payments{
     margin-top: 1rem;
+    
+    display: inline-block
+}
+/* .paymentIcon{
+    border-radius: 4px;
+  margin:0 auto;
+} */
+
+
+.brandName{
+    text-align: center;
 }
