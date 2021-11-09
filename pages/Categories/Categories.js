@@ -12,6 +12,7 @@ export const Categories = () => {
                         src={item.file}
                         width="600px"
                         height="400px"
+                        alt="VcBeauty Categorias"
                     />
                 </div>
 

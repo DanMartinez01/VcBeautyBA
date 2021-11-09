@@ -1,7 +1,7 @@
 import Image from 'next/dist/client/image';
 import { Carousel } from 'react-bootstrap';
 import CarImg1 from '../Assets/CarImg1.jpg';
-import CarImg5 from '../Assets/CarImg5.jpg';
+// import CarImg5 from '../Assets/CarImg5.jpg';
 
 
 export const Carrousel = () => {
@@ -18,7 +18,7 @@ export const Carrousel = () => {
             <Carousel.Item align="center" >
                 <Image
                     className="d-block w-100"
-                    src={CarImg5}
+                    src={CarImg1}
 
                     alt="Second slide"
                 />
