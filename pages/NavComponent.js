@@ -9,13 +9,13 @@ function NavComponent() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Productos</Nav.Link>
                         <NavDropdown title="Tratamientos" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#action/3.1">Corporal</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2">Glowy Lips</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.3">Higiene facial</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.4">Antes y Despues</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="#home">Productos</Nav.Link>
                         <Nav.Link href="#link">Turnos</Nav.Link>
                         <Nav.Link href="#link">Contacto</Nav.Link>
                         <Nav.Link href="#link">
