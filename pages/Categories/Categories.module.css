@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    /* background-color: wheat; */
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.Card{
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.CardText{
+    text-align: center;
+}
+@media (max-width:800px){
+    .container{
+        flex-direction: column;
+    }
+}

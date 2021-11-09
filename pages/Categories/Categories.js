@@ -1,17 +1,19 @@
 import data from '../../data.json';
 import Image from 'next/image';
+import styles from './Categories.module.css';
 
 export const Categories = () => {
     return (
-        <div>
+        <div className={styles.container}>
             {data.map((item) => (
-
-                <a>{item.title}</a>,
-                <Image
-                    src={item.file}
-                    width="300px"
-                    height="200px"
-                />
+                <div className={styles.Card}>
+                    {/* <a className={styles.CardText}> {item.title}</a>, */}
+                    <Image
+                        src={item.file}
+                        width="600px"
+                        height="400px"
+                    />
+                </div>
 
             ))}
         </div>
