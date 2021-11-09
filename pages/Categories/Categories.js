@@ -4,10 +4,9 @@ import Image from 'next/image';
 export const Categories = () => {
     return (
         <div>
-            {data.map((item) => (   // note the removed {}
+            {data.map((item) => (
 
                 <a>{item.title}</a>,
-
                 <Image
                     src={item.file}
                     width="300px"
