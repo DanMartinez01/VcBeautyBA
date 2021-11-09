@@ -6,7 +6,7 @@ export const Categories = () => {
     return (
         <div className={styles.container}>
             {data.map((item) => (
-                <div className={styles.Card}>
+                <div className={styles.Card} key={item.id}>
                     {/* <a className={styles.CardText}> {item.title}</a>, */}
                     <Image
                         src={item.file}
