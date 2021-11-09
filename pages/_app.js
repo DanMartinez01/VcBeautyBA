@@ -2,7 +2,8 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import NavComponent from './NavComponent';
-import Carrousel from './Carrousel/Carrousel'
+import Carrousel from './Carrousel/Carrousel';
+import Categories from './Categories/Categories';
 import InfoSection from './InfoSection/InfoSection';
 import Footer from '../pages/Footer/Footer';
 
@@ -26,7 +27,9 @@ function MyApp({ Component, pageProps }) {
       </div>
       <NavComponent />
       <Carrousel />
-      <Component {...pageProps} />
+      <Categories />
+      {/* <Component {...pageProps} /> */}
+
       <InfoSection />
       <Footer />
     </>

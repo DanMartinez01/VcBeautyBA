@@ -1,7 +1,7 @@
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import { FaInstagram } from 'react-icons/fa';
 
-function NavComponent() {
+export const NavComponent = () => {
     return (
         <Navbar bg="transparent" expand="lg" sticky="top" navbar="light" >
             < Container >
