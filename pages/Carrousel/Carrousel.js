@@ -13,14 +13,17 @@ export const Carrousel = () => {
                     src={CarImg1}
                     alt="First slide"
 
+                    fluid
+
                 />
             </Carousel.Item>
             <Carousel.Item align="center" >
                 <Image
                     className="d-block w-100"
                     src={CarImg1}
-
                     alt="Second slide"
+
+                    fluid
                 />
             </Carousel.Item>
             <Carousel.Item align="center" >
@@ -28,6 +31,8 @@ export const Carrousel = () => {
                     className="d-block w-100"
                     src={CarImg1}
                     alt="Third slide"
+
+                    fluid
                 />
             </Carousel.Item>
         </Carousel>
