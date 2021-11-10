@@ -7,7 +7,10 @@ export const Categories = () => {
         <div className={styles.container}>
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
-                    {/* <a className={styles.CardText}> {item.title}</a>, */}
+                    <div className={styles.CardText}>
+                        <a> {item.title}</a>
+                    </div>
+
                     <Image
                         src={item.file}
                         width="600px"
