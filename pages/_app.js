@@ -5,6 +5,7 @@ import NavComponent from './NavComponent';
 import Carrousel from './Carrousel/Carrousel';
 import Categories from './Categories/Categories';
 import InfoSection from './InfoSection/InfoSection';
+import AboutMe from './AboutMe/AboutMe';
 import Footer from '../pages/Footer/Footer';
 
 import { SiWhatsapp } from 'react-icons/si';
@@ -29,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       <Carrousel />
       <Categories />
       {/* <Component {...pageProps} /> */}
-
+      <AboutMe/>
       <InfoSection />
       <Footer />
     </>

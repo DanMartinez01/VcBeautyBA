@@ -10,7 +10,6 @@ export const Categories = () => {
                     <div className={styles.CardText}>
                         <a> {item.title}</a>
                     </div>
-
                     <Image
                         src={item.file}
                         width="600px"

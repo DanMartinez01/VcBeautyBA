@@ -2,11 +2,11 @@
 .mainFooter {
     color: #ffffff;
     background-color:#212529;
-    padding-top: 1rem;
+    padding: 1rem;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-top: 0px;
+    margin-bottom:0px;
   }
 .footerLinks{
     color:white;
@@ -26,13 +26,9 @@
 }
 .payments{
     margin-top: 1rem;
-    
     display: inline-block
 }
-/* .paymentIcon{
-    border-radius: 4px;
-  margin:0 auto;
-} */
+
 
 
 .brandName{

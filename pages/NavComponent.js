@@ -3,7 +3,7 @@ import { FaInstagram } from 'react-icons/fa';
 
 export const NavComponent = () => {
     return (
-        <Navbar bg="transparent" expand="lg" sticky="top" navbar="light" >
+        <Navbar bg="transparent" expand="lg" sticky="top" navbar="dark" >
             < Container >
                 <Navbar.Brand href="#home">Vc Beauty BA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

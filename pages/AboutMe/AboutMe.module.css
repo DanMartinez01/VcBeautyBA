@@ -1,0 +1,27 @@
+.container{
+    padding: 3rem;
+    display:flex;
+    flex-direction:row;
+}
+.aboutMeTitle{
+ font-weight:normal;
+}
+.aboutMeImg{
+    margin-left:0;
+}
+.aboutMeText{
+    padding-left: 1rem;
+    text-align: center;
+    font-size:small;
+    padding: .7rem;
+}
+
+@media (max-width:800px){
+    .container{
+        flex-direction:column;
+        padding: .5rem;
+    }
+    .aboutMeText{
+        margin-top:1rem;
+    }
+}
