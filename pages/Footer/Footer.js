@@ -7,10 +7,10 @@ import { MdLocationOn } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
 
 
-import visa from '../Assets/visa.png';
-import mastercard from '../../pages/Assets/mastercard.png';
-import mercadopago from '../../pages/Assets/mercadopago.png';
-import pagofacil from '../../pages/Assets/pagofacil.png';
+// import visa from '../Assets/visa.png';
+// import mastercard from '../../pages/Assets/mastercard.png';
+// import mercadopago from '../../pages/Assets/mercadopago.png';
+// import pagofacil from '../../pages/Assets/pagofacil.png';
 
 export const Footer = () => {
     return (
@@ -42,7 +42,7 @@ export const Footer = () => {
                         </li>
                     </ui>
                 </div>
-                <div className={styles.payments}>
+                {/* <div className={styles.payments}>
                     <Image className={styles.paymentIcon}
                         alt="mercado pago"
                         src={mercadopago}
@@ -68,7 +68,7 @@ export const Footer = () => {
                         width="35px"
                         height="20px"
                     />
-                </div>
+                </div> */}
             </div>
             <hr />
             <div>
