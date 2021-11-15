@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import NavComponent from './NavComponent';
+import NavComponent from './NavComponent/NavComponent';
 import Carrousel from './Carrousel/Carrousel';
 import Categories from './Categories/Categories';
 import InfoSection from './InfoSection/InfoSection';
@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
       <Carrousel />
       <Categories />
       {/* <Component {...pageProps} /> */}
-      <AboutMe/>
+      <AboutMe />
       <InfoSection />
       <Footer />
     </>
