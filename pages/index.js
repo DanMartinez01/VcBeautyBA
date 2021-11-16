@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        {/* google font */}
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
         <title>VcBeautyBa</title>
         <meta name="VcBeautyBA" content="Estética, tratamientos facialesy corporales" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.jpg" />
@@ -20,7 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {/* Vc Beauty BA */}
+          Hola
         </h1>
       </main>
     </div >

@@ -18,7 +18,6 @@ export const Footer = () => {
 
             <div className={styles.row}>
                 <div className={styles.col}>
-                    <h5>VcBeautyBA</h5>
                     <ui className="list-unstyled">
                         <a className={styles.footerLinks}
                             href="https://wa.me/5491130666726"

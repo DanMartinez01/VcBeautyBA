@@ -1,11 +1,16 @@
 .navBarColor{
-    background-color:rgba(0, 0, 0, 0.74);
-    
+    background-color:#2d2a26cc;
     color:whitesmoke;
     width: 100%;
-    /* height: 60px; */
+    height: 100px;
     position: fixed;
 }
 .navBarLink{
     color:white;
+}
+
+@media (max-width:600px){
+    .navBarColor{
+        height: 60px;
+    }
 }
