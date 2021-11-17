@@ -8,36 +8,40 @@ import CarImg3 from '../Assets/3.jpg';
 
 export const Carrousel = () => {
     return (
-        <Carousel controls={false} indicators={false}>
-            <Carousel.Item align="center">
-                <Image
-                    className="carouselImg"
-                    src={CarImg1}
-                    alt="First slide"
-                    fluid
-                    height="1000px"
-                />
-            </Carousel.Item >
-            <Carousel.Item align="center">
-                <Image
-                    className={styles.carouselImg}
-                    src={CarImg4}
-                    alt="Second slide"
-                    fluid
-                    height="1000px"
-                />
-            </Carousel.Item>
-            <Carousel.Item align="center">
-                <Image
-                    className={styles.carouselImg}
-                    src={CarImg3}
-                    alt="Third slide"
-                    fluid
-                    height="1000px"
-                />
-            </Carousel.Item>
-        </Carousel>
-
+        <div className={styles.container}>
+            <Carousel controls={false} indicators={false}>
+                <Carousel.Item align="center">
+                    <Image
+                        className="carouselImg"
+                        src={CarImg1}
+                        alt="First slide"
+                        fluid
+                        height="1000px"
+                    />
+                </Carousel.Item >
+                <Carousel.Item align="center">
+                    <Image
+                        className={styles.carouselImg}
+                        src={CarImg4}
+                        alt="Second slide"
+                        fluid
+                        height="1000px"
+                    />
+                </Carousel.Item>
+                <Carousel.Item align="center">
+                    <Image
+                        className={styles.carouselImg}
+                        src={CarImg3}
+                        alt="Third slide"
+                        fluid
+                        height="1000px"
+                    />
+                </Carousel.Item>
+            </Carousel>
+            <div className={styles.banner}>
+                <h5 className={styles.title}> Descubrí  VC, Descubrí  Beauty </h5>
+            </div>
+        </div>
 
     )
 }
