@@ -39,7 +39,7 @@ export const Carrousel = () => {
                 </Carousel.Item>
             </Carousel>
             <div className={styles.banner}>
-                <h5 className={styles.title}> Descubrí  VC, Descubrí  Beauty </h5>
+                <h5 className={styles.title}> Descubrí  VC </h5>
             </div>
         </div>
 
