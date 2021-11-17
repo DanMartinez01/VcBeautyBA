@@ -11,26 +11,29 @@ export const Carrousel = () => {
         <Carousel controls={false} indicators={false}>
             <Carousel.Item align="center">
                 <Image
-                    className="d-block w-100"
+                    className={styles.carouselImg}
                     src={CarImg1}
                     alt="First slide"
                     fluid
+                    height="1000px"
                 />
             </Carousel.Item >
             <Carousel.Item align="center">
                 <Image
-                    className="d-block w-100"
+                    className={styles.carouselImg}
                     src={CarImg4}
                     alt="Second slide"
                     fluid
+                    height="1000px"
                 />
             </Carousel.Item>
             <Carousel.Item align="center">
                 <Image
-                    className="d-block w-100"
+                    className={styles.carouselImg}
                     src={CarImg3}
                     alt="Third slide"
                     fluid
+                    height="1000px"
                 />
             </Carousel.Item>
         </Carousel>
