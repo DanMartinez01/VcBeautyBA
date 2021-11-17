@@ -11,7 +11,7 @@ export const Carrousel = () => {
         <Carousel controls={false} indicators={false}>
             <Carousel.Item align="center">
                 <Image
-                    className={styles.carouselImg}
+                    className="carouselImg"
                     src={CarImg1}
                     alt="First slide"
                     fluid

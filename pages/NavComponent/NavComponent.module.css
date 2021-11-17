@@ -17,6 +17,8 @@
 
 @media (max-width:400px){
     .navBarColor{
+        margin-bottom: 0px;
         height: 55px;
+        position: sticky;
     }
 }

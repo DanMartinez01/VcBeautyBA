@@ -6,7 +6,7 @@ export const NavComponent = () => {
     return (
         <Navbar className={styles.navBarColor} expand="lg" sticky="top" variant="dark" >
             < Container >
-                <Navbar.Brand href="#home">Vc Beauty BA</Navbar.Brand>
+                <Navbar.Brand href="/">Vc Beauty BA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
