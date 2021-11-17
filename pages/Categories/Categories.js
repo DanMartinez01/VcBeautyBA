@@ -1,7 +1,6 @@
 import data from '../../data.json';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 import styles from './Categories.module.css';
 
 export const Categories = () => {
@@ -10,14 +9,14 @@ export const Categories = () => {
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href="/treatment">
+                        <Link href='/Treatment'>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>
                     <Image
                         src={item.file}
-                        width="600px"
-                        height="400px"
+                        width="650px"
+                        height="450px"
                         alt="VcBeauty Categorias"
                     />
                 </div>

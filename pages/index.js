@@ -22,7 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Hola
+          Hola!!
         </h1>
       </main>
     </div >
