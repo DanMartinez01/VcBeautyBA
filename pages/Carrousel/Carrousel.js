@@ -1,9 +1,9 @@
 import Image from 'next/dist/client/image';
 import styles from './Carrousel.module.css';
 import { Carousel } from 'react-bootstrap';
-import CarImg1 from '../Assets/1.jpg';
-// import CarImg2 from '../Assets/2.jpg';
-// import CarImg3 from '../Assets/3.jpg';
+import CarImg1 from '../Assets/2.jpg';
+import CarImg4 from '../Assets/4.jpg';
+import CarImg3 from '../Assets/3.jpg';
 
 
 export const Carrousel = () => {
@@ -20,7 +20,7 @@ export const Carrousel = () => {
             <Carousel.Item align="center">
                 <Image
                     className="d-block w-100"
-                    src={CarImg1}
+                    src={CarImg4}
                     alt="Second slide"
                     fluid
                 />
@@ -28,7 +28,7 @@ export const Carrousel = () => {
             <Carousel.Item align="center">
                 <Image
                     className="d-block w-100"
-                    src={CarImg1}
+                    src={CarImg3}
                     alt="Third slide"
                     fluid
                 />

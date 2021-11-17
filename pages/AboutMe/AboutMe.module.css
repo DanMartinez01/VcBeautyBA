@@ -1,27 +1,36 @@
 .container{
-    padding: 3rem;
     display:flex;
     flex-direction:row;
+    margin-top: 0;
+    padding:1rem;
 }
 .aboutMeTitle{
+padding-top: .5rem;
  font-weight:normal;
 }
 .aboutMeImg{
-    margin-left:0;
+  padding-right: .5rem;
+   
 }
 .aboutMeText{
-    padding-left: 1rem;
+    padding: 1rem;
     text-align: center;
     font-size:small;
-    padding: .7rem;
 }
 
 @media (max-width:800px){
     .container{
         flex-direction:column;
-        padding: .5rem;
+        padding:0px;
+        margin: 0;
     }
     .aboutMeText{
-        margin-top:1rem;
+        /* margin-top:1rem; */
+        padding:1rem;
+    }
+    .aboutMeImg{
+        width: 100%;
+        padding:0;
+        margin: 0;
     }
 }
