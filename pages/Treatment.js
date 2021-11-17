@@ -1,9 +1,8 @@
-export const Treatment = () => {
+const treatment = () => {
     return (
         <div>
-            <h1>Treatment</h1>
-            <p>Que es?</p>
+            <h1>Hello</h1>
         </div>
     )
 }
-export default Treatment
+export default treatment
