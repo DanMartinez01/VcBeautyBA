@@ -9,7 +9,7 @@ export const Categories = () => {
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href='/AboutMe'>
+                        <Link href='/pages/Treatment'>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>
@@ -17,7 +17,7 @@ export const Categories = () => {
                         src={item.file}
                         width="650px"
                         height="450px"
-                        alt="VcBeauty Categorias"
+                        alt="Categorias"
                     />
                 </div>
 

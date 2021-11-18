@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        {/* google font */}
+        {/* google fonts */}
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
         <title>VcBeautyBa</title>
         <meta name="VcBeautyBA" content="Estética, tratamientos facialesy corporales" />
@@ -17,13 +17,9 @@ export default function Home() {
         <meta property="og:image" content="https://vc-beauty-ba-quxzr3byy-danmartinez01.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCarImg1.8cf4beaf.jpg&w=1920&q=75" />
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
-
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Hola!!
-        </h1>
+      <main>
       </main>
     </div >
   )

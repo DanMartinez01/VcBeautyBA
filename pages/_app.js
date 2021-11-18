@@ -8,9 +8,9 @@ import InfoSection from './InfoSection/InfoSection';
 import AboutMe from './AboutMe/AboutMe';
 import Footer from '../pages/Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
-// import Treatment from './Treatment';
 
-function MyApp({ Component, pageProps }) {
+// { Component, pageProps }
+function MyApp() {
   return (
     <>
       <div>
@@ -26,7 +26,6 @@ function MyApp({ Component, pageProps }) {
         </a>
       </div>
       <NavComponent />
-      {/* <Treatment /> */}
       <Carrousel />
       <Categories />
       {/* <Component {...pageProps} /> */}
