@@ -16,7 +16,7 @@ export const Carrousel = () => {
                         src={CarImg1}
                         alt="First slide"
                         fluid
-                        height="1000px"
+                        height="1100px"
                     />
                 </Carousel.Item >
                 <Carousel.Item align="center">
@@ -25,7 +25,7 @@ export const Carrousel = () => {
                         src={CarImg4}
                         alt="Second slide"
                         fluid
-                        height="1000px"
+                        height="1100px"
                     />
                 </Carousel.Item>
                 <Carousel.Item align="center">
@@ -34,7 +34,7 @@ export const Carrousel = () => {
                         src={CarImg3}
                         alt="Third slide"
                         fluid
-                        height="1000px"
+                        height="1100px"
                     />
                 </Carousel.Item>
             </Carousel>

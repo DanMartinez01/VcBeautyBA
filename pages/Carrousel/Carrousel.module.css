@@ -5,12 +5,12 @@
 
 .banner{ 
     background-color:#2d2a26cc;
-    padding:30px ;
+    padding:50px ;
     width: 100%;
     /* margin-top: 155px; */
     position: absolute;
     z-index: 100;
-    top: 100%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
@@ -18,13 +18,14 @@
     justify-content: center;
     text-transform: uppercase;
     letter-spacing: 10px;
-    
 }
 .title{
-    color: white;
+    color: whitesmoke;
     font-size: xx-large;
     font-weight: normal;
     word-spacing: 10px;
+    align-items: center;
+    justify-content: center;
 }
 
 @media (max-width:600px){
@@ -35,6 +36,9 @@
         top: 100%;
         left: 50%;
         transform: translate(-50%, -50%);   
+    }
+    .title{
+        font-size: large;
     }
    
 }

@@ -1,26 +1,29 @@
 .navBarColor{
     background-color:#2d2a26cc;
-    color:whitesmoke;
+    color:white;
     width: 100%;
     height: 90px;
     position: fixed;
     text-transform: uppercase;
     letter-spacing: 6px;
+    margin:0 auto;
+    text-align: center;
 }
 .navBarLink{
     color:white;
+    margin:0 auto;
 }
 
 @media (max-width:800px){
     .navBarColor{
-        height: 70px;
+        height: 60px;
     }
 }
 
 @media (max-width:400px){
     .navBarColor{
         margin-bottom: 0px;
-        height: 55px;
+        height: 50px;
         position: sticky;
     }
 }
