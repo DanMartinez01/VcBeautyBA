@@ -6,6 +6,8 @@ flex-direction: row;
     text-align: center;
 }
 .mainInfoSection {
+    text-transform: uppercase;
+    letter-spacing: 1px;
     text-decoration: none;
     color:black;
     padding: 1rem;
@@ -15,6 +17,7 @@ flex-direction: row;
     margin-bottom: 0px;
     display: flex;
     flex-direction: row;
+
   }
 
 .infoSectionLink a{

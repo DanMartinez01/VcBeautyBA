@@ -1,5 +1,7 @@
 
 .mainFooter {
+    text-transform: uppercase;
+    letter-spacing: 1px;
     color: #ffffff;
     background-color:#2D2A26;
     padding: 1rem;
