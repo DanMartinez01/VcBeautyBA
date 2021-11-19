@@ -21,11 +21,11 @@
     }
 }
 
-@media (max-width:400px){
+@media (max-width:440px){
     .navBarColor{
         background-color:#2d2a26cc;
         padding: 5px;
-        /* margin-bottom: 0px;
-        position: sticky; */
+        margin-bottom: 0px;
+        position: sticky;
     }
 }

@@ -19,7 +19,7 @@ export const NavComponent = () => {
                         <Nav.Link className={styles.navBarLink} href="#home">Productos</Nav.Link>
                         <Nav.Link href="#link">Turnos</Nav.Link>
                         <Nav.Link href="#link">Contacto</Nav.Link>
-                        <Nav.Link href="#link">
+                        <Nav.Link href="https://www.instagram.com/vc.beautyba/">
                             <FaInstagram color="white" size="20px" />
                         </Nav.Link>
                     </Nav>
