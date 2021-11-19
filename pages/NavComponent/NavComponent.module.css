@@ -1,8 +1,7 @@
 .navBarColor{
     background-color:#2d2a26cc;
-    color:white;
+    padding: 20px;
     width: 100%;
-    height: 90px;
     position: fixed;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -10,20 +9,23 @@
     text-align: center;
 }
 .navBarLink{
-    color:white;
+    /* color:white; */
     margin:0 auto;
 }
 
 @media (max-width:800px){
     .navBarColor{
-        height: 60px;
+        background-color:#2d2a26cc;
+        /* margin-bottom: 0px;
+        position: sticky; */
     }
 }
 
 @media (max-width:400px){
     .navBarColor{
-        margin-bottom: 0px;
-        height: 50px;
-        position: sticky;
+        background-color:#2d2a26cc;
+        padding: 5px;
+        /* margin-bottom: 0px;
+        position: sticky; */
     }
 }

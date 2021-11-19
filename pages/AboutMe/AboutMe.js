@@ -7,7 +7,8 @@ export const AboutMe = () => {
       <Image className={styles.AboutMeImg}
         src={aboutMeImg}
         width="1700px"
-        height="2400px"
+        height="1700px"
+        fluid
       />
       <div className={styles.aboutMeText}>
         <h3 className={styles.aboutMeTitle}><b>VC BEAUTY</b></h3>
