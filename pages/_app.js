@@ -9,9 +9,9 @@ import Carrousel from '../Components/Carrousel/Carrousel';
 import Categories from '../Components/Categories/Categories';
 import InfoSection from '../Components/InfoSection/InfoSection';
 import AboutMe from '../Components/AboutMe/AboutMe';
-import Footer from '../pages/Footer/Footer';
+import Footer from '../Components/Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
-import Treatment from './Treatment/Treatment';
+// import Treatment from './Treatment/Treatment';
 
 
 function MyApp() {
@@ -37,7 +37,7 @@ function MyApp() {
           <Link href='/Treatment'>Treatments</Link>
         </button>
         <AboutMe />
-        <Treatment />
+        {/* <Treatment /> */}
         <InfoSection />
         <Footer />
       </>
