@@ -7,7 +7,7 @@ export const AboutMe = () => {
       <Image className={styles.AboutMeImg}
         src={aboutMeImg}
         width="1700px"
-        height="1700px"
+        height="2000px"
         fluid
       />
       <div className={styles.aboutMeText}>
