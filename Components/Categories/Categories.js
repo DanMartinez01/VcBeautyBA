@@ -3,13 +3,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Categories.module.css';
 
+
 export const Categories = () => {
     return (
         <div className={styles.container}>
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href='/pages/Treatment'>
+                        <Link href='/Treatment'>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>

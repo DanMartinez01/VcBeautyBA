@@ -5,8 +5,6 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        {/* google fonts */}
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
         <title>VcBeautyBa</title>
         <meta name="VcBeautyBA" content="Estética, tratamientos facialesy corporales" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.jpg" />
@@ -18,8 +16,8 @@ export default function Home() {
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
-
       <main>
+
       </main>
     </div >
   )
