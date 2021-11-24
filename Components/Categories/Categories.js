@@ -11,7 +11,7 @@ export const Categories = () => {
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href='/HigieneFacial/HigieneFacial'>
+                        <Link href={item.route}>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>
@@ -23,8 +23,9 @@ export const Categories = () => {
                     />
                 </div>
 
-            ))}
-        </div>
+            ))
+            }
+        </div >
 
     )
 }

@@ -15,7 +15,6 @@ export const Treatment = () => {
                 <h1 className={styles.title}>Higiene Facial</h1>
                 <p><b> HIGIENE SIMPLE:</b></p>
                 <p>
-
                     La higiene simple (sin extracción) incluye preparación de la piel, limpieza, afinamiento de la capa córnea, aplicación de lociones, mascarillas afines y protección de la piel.Se cambia máscara según problemática.<br />
                     DURACIÓN: 1 hora
                 </p>

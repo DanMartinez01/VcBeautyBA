@@ -3,24 +3,28 @@
         "id": "cat1",
         "title": "Higiene Facial",
         "link": "/Treament",
-        "file": "https://www.hogarmania.com/archivos/201703/limpieza-profunda-piel.pasos-668x400x80xX.jpg"
+        "file": "https://www.hogarmania.com/archivos/201703/limpieza-profunda-piel.pasos-668x400x80xX.jpg",
+        "route": "/HigieneFacial/HigieneFacial"
     },
     {
         "id": "cat2",
         "title": "Peeling",
         "level": "Basic",
-        "file": "https://www.infobae.com/new-resizer/ylKYueecVtf_fnMUj1ICG6y5OHc=/1200x900/filters:format(jpg):quality(85)//s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24153707/Peeling-facial-1920-3.jpg"
+        "file": "https://www.infobae.com/new-resizer/ylKYueecVtf_fnMUj1ICG6y5OHc=/1200x900/filters:format(jpg):quality(85)//s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2018/05/24153707/Peeling-facial-1920-3.jpg",
+        "route": "/HigieneFacial/HigieneFacial"
     },
     {
         "id": "cat3",
         "title": "Glowy Lips",
         "level": "Basic",
-        "file": "https://www.centrosideal.com/wp-content/uploads/2019/10/belotero-lips.jpg"
+        "file": "https://www.centrosideal.com/wp-content/uploads/2019/10/belotero-lips.jpg",
+        "route": "/GlowyLips/GlowyLips"
     },
     {
         "id": "cat4",
         "title": "Dermaplaning",
         "level": "Basic",
-        "file": "https://www.infobae.com/new-resizer/El_bYQvDUQyp0wCA8MnGcfOQJ6c=/1024x512/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/DTHRIGSLQFE5JE2L4YBUAYXCWQ.jpg"
+        "file": "https://www.infobae.com/new-resizer/El_bYQvDUQyp0wCA8MnGcfOQJ6c=/1024x512/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/DTHRIGSLQFE5JE2L4YBUAYXCWQ.jpg",
+        "route": "/HigieneFacial/HigieneFacial"
     }
 ]
