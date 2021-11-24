@@ -1,5 +1,6 @@
 
 import styles from './InfoSection.module.css'
+import React, { Component } from 'react';
 
 export const InfoSection = () => {
     return (

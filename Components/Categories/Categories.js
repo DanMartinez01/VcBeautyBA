@@ -2,6 +2,7 @@ import data from '../../data.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Categories.module.css';
+import React, { Component } from 'react';
 
 
 export const Categories = () => {
@@ -10,7 +11,7 @@ export const Categories = () => {
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href='Treatment'>
+                        <Link href='/HigieneFacial/HigieneFacial'>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>

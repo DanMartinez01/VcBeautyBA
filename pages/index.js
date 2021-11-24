@@ -1,13 +1,14 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Categories from '../Components/Categories/Categories';
+import React, { Component } from 'react';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
         <title>VcBeautyBa</title>
-        <meta name="VcBeautyBA" content="Estética, tratamientos facialesy corporales" />
+        <meta name="VcBeautyBA" content="Estética, tratamientos faciales y corporales" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.jpg" />
         {/* Open Graph data  */}
         <meta property="og:type" content="article" />

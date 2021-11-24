@@ -4,6 +4,7 @@ import { Carousel } from 'react-bootstrap';
 import CarImg1 from '../../Assets/2.jpg';
 import CarImg4 from '../../Assets/4.jpg';
 import CarImg3 from '../../Assets/3.jpg';
+import React, { Component } from 'react';
 
 
 export const Carrousel = () => {

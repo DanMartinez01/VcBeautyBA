@@ -5,6 +5,7 @@ import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
 import { MdLocationOn } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
+import React, { Component } from 'react';
 
 
 // import visa from '../Assets/visa.png';

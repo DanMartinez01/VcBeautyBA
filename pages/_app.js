@@ -5,13 +5,13 @@ import Link from 'next/dist/client/link';
 
 
 import NavComponent from '../Components/NavComponent/NavComponent';
-import Carrousel from '../Components/Carrousel/Carrousel';
-import Categories from '../Components/Categories/Categories';
-import InfoSection from '../Components/InfoSection/InfoSection';
-import AboutMe from '../Components/AboutMe/AboutMe';
+// import Carrousel from '../Components/Carrousel/Carrousel';
+// import Categories from '../Components/Categories/Categories';
+// import InfoSection from '../Components/InfoSection/InfoSection';
+// import AboutMe from '../Components/AboutMe/AboutMe';
 import Footer from '../Components/Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
-import { Component } from 'react';
+import React, { Component } from 'react';
 // import Treatment from './Treatment/Treatment';
 
 

@@ -1,6 +1,7 @@
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import styles from './NavComponent.module.css';
 import { FaInstagram } from 'react-icons/fa';
+import React, { Component } from 'react';
 
 export const NavComponent = () => {
     return (

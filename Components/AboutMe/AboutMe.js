@@ -1,6 +1,8 @@
 import styles from './AboutMe.module.css';
 import Image from 'next/image';
 import aboutMeImg from '../../Assets/vic.jpeg';
+import React, { Component } from 'react';
+
 export const AboutMe = () => {
   return (
     <div className={styles.container}>
