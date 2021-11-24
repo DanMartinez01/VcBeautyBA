@@ -10,7 +10,7 @@ export const Categories = () => {
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
-                        <Link href='/Treatment'>
+                        <Link href='Treatment'>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
                     </div>

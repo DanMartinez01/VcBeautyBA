@@ -11,10 +11,11 @@ import InfoSection from '../Components/InfoSection/InfoSection';
 import AboutMe from '../Components/AboutMe/AboutMe';
 import Footer from '../Components/Footer/Footer';
 import { SiWhatsapp } from 'react-icons/si';
+import { Component } from 'react';
 // import Treatment from './Treatment/Treatment';
 
 
-function MyApp() {
+function MyApp({ Component, pageProps }) {
   return (
     <SSRProvider>
       <>
@@ -31,14 +32,8 @@ function MyApp() {
           </a>
         </div>
         <NavComponent />
-        <Carrousel />
-        <Categories />
-        <button>
-          <Link href='/Treatment'>Treatments</Link>
-        </button>
-        <AboutMe />
-        {/* <Treatment /> */}
-        <InfoSection />
+        <Component {...pageProps} />
+        {/* <AboutMe /> */}
         <Footer />
       </>
     </SSRProvider>
@@ -47,3 +42,9 @@ function MyApp() {
 }
 
 export default MyApp
+        // <Carrousel />
+        // <Categories />
+        // <button>
+        //   <Link href='/Treatment'>Treatments</Link>
+        // </button>
+        // <InfoSection />
