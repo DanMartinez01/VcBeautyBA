@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container{
+    
+  font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin: 0;
     display: flex;
@@ -7,8 +10,9 @@
 }
 .treatmentText{
     padding: 5rem;
+    padding-top: 6rem;
     text-transform: uppercase;
-    font-size: medium;
+    font-size: small;
 }
 .title{
     text-align: center;
@@ -23,9 +27,10 @@
     outline: none;
     border:none;
     padding: 10px; */
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
+    text-transform: uppercase;
     padding: 13px 50px 13px;
     outline: 0;
     border: 1px solid rgba(0, 0, 0, 0.747);
@@ -60,8 +65,11 @@
         padding: 2rem;
     }
 }
-@media (max-width:500px){
+@media (max-width:800px){
 .title{
     text-align: left;
+}
+.treatmentText{
+    font-size: 14px;
 }
 }

@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .navBarColor{
     background-color:#2d2a26cc;
     padding: 20px;
     width: 100%;
     position: fixed;
+    margin:0 auto;
+    color:white;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    margin:0 auto;
+    font-family: 'Monserrat', sans-serif;
     text-align: center;
 }
 .navBarLink{
-    /* color:white; */
+    color:white;
     margin:0 auto;
 }
 
