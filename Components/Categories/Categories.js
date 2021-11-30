@@ -17,8 +17,8 @@ export const Categories = () => {
                     </div>
                     <Image
                         src={item.file}
-                        width="650px"
-                        height="450px"
+                        width="670px"
+                        height="460px"
                         alt="Categorias"
                     />
                 </div>

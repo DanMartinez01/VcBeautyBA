@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .container{
-    
   font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin: 0;
@@ -12,10 +11,11 @@
     padding: 5rem;
     padding-top: 6rem;
     text-transform: uppercase;
-    font-size: small;
+    font-size: smaller;
 }
 .title{
     text-align: center;
+    margin-bottom: 2rem;
     font-weight: normal;
     letter-spacing: 5px;
     color: rgba(0, 0, 0, 0.699);
