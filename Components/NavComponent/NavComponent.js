@@ -2,27 +2,33 @@ import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import styles from './NavComponent.module.css';
 import { FaInstagram } from 'react-icons/fa';
 import React, { Component } from 'react';
+import Link from 'next/dist/client/link';
 
 export const NavComponent = () => {
     return (
         <Navbar className={styles.navBarColor} expand="lg" sticky="top" variant="dark" >
             < Container >
-                <Navbar.Brand href="/">Vc Beauty BA</Navbar.Brand>
+                <Navbar.Brand href="/">VC Beauty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <NavDropdown title="Tratamientos" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Corporal</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Glowy Lips</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Higiene facial</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">Antes y Despues</NavDropdown.Item>
-                        </NavDropdown>
-                        <Nav.Link className={styles.navBarLink} href="#home">Productos</Nav.Link>
-                        <Nav.Link href="#link">Turnos</Nav.Link>
-                        <Nav.Link href="#link">Contacto</Nav.Link>
-                        <Nav.Link href="https://www.instagram.com/vc.beautyba/">
-                            <FaInstagram color="white" size="20px" />
-                        </Nav.Link>
+                        <Link href="#home">
+                            <a className={styles.navBarLink}>Higiene Facial</a>
+                        </Link>
+                        <Link href="#link">
+                            <a className={styles.navBarLink}>Glowy Lips</a>
+                        </Link>
+                        <Link href="/Contacto/Contacto">
+                            <a className={styles.navBarLink}>Corporal</a>
+                        </Link>
+                        <Link href="/Contacto/Contacto">
+                            <a className={styles.navBarLink}>Jornadas</a>
+                        </Link>
+                        <Link href="https://www.instagram.com/vc.beautyba/">
+                            <a className={styles.navBarLink}>
+                                <FaInstagram color="white" size="20px" />
+                            </a>
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container >

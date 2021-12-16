@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navBarColor{
     background-color:#2d2a26cc;
     padding: 20px;
@@ -9,12 +9,14 @@
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 .navBarLink{
     color:white;
-    margin:0 auto;
+    margin-right: 1rem;
+    text-decoration:none;
+    padding:0;
 }
 
 @media (max-width:800px){

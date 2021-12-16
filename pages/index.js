@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Carrousel from '../Components/Carrousel/Carrousel';
 import Categories from '../Components/Categories/Categories';
+import AboutMe from '../Components/AboutMe/AboutMe';
 import React, { Component } from 'react';
 
 export default function Home() {
@@ -19,7 +21,9 @@ export default function Home() {
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
       <main>
+        <Carrousel />
         <Categories />
+        <AboutMe />
       </main>
     </div >
   )

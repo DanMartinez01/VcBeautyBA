@@ -8,8 +8,8 @@ export const AboutMe = () => {
     <div className={styles.container}>
       <Image className={styles.AboutMeImg}
         src={aboutMeImg}
-        width="1700px"
-        height="2000px"
+        width="2000px"
+        height="2400px"
         fluid
       />
       <div className={styles.aboutMeText}>

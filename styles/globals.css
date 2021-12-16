@@ -27,7 +27,7 @@ a {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  /* box-shadow: 2px 2px 2px #999; */
+  box-shadow: 2px 2px 2px #999;
   z-index: 200;
 }
 .whatsapp_float :hover{
