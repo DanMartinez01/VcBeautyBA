@@ -10,7 +10,8 @@ import NavComponent from '../Components/NavComponent/NavComponent';
 // import InfoSection from '../Components/InfoSection/InfoSection';
 // import AboutMe from '../Components/AboutMe/AboutMe';
 import Footer from '../Components/Footer/Footer';
-import { SiWhatsapp } from 'react-icons/si';
+import { SiWhatsapp, SiInstagram } from 'react-icons/si';
+
 import React, { Component } from 'react';
 // import Treatment from './Treatment/Treatment';
 
@@ -28,6 +29,18 @@ function MyApp({ Component, pageProps }) {
           >
             <i className=" whatsapp-icon">
               <SiWhatsapp size="large" />
+            </i>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://wa.me/2348100000000"
+            className="whatsapp_float2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className=" whatsapp-icon2">
+              <SiInstagram size="small" />
             </i>
           </a>
         </div>
