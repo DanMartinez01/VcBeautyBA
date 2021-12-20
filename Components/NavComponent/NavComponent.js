@@ -25,9 +25,7 @@ export const NavComponent = () => {
                             <a className={styles.navBarLink}>Jornadas</a>
                         </Link>
                         <Link href="https://www.instagram.com/vc.beautyba/">
-                            <a className={styles.navBarLink}>
-                                <FaInstagram color="white" size="20px" />
-                            </a>
+                            <a className={styles.navBarLink}>Turnos</a>
                         </Link>
                     </Nav>
                 </Navbar.Collapse>
