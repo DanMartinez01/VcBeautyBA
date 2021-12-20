@@ -46,7 +46,6 @@ function MyApp({ Component, pageProps }) {
         </div>
         <NavComponent />
         <Component {...pageProps} />
-        {/* <AboutMe /> */}
         <Footer />
       </>
     </SSRProvider>

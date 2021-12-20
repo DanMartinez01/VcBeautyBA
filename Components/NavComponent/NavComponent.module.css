@@ -18,6 +18,9 @@
     text-decoration:none;
     padding:0;
 }
+.navBarLink:hover{
+    color:gray;
+}
 
 @media (max-width:800px){
     .navBarColor{
