@@ -33,7 +33,6 @@
     .navBarColor{
         background-color:#2d2a26cc;
         padding: 5px;
-        margin-bottom: 0px;
-        position: sticky;
+        /* position: sticky; */
     }
 }
