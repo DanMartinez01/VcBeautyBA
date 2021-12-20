@@ -22,12 +22,11 @@
 @media (max-width:800px){
     .navBarColor{
         background-color:#2d2a26cc;
-        /* margin-bottom: 0px;
-        position: sticky; */
+        padding:8px;
     }
 }
 
-@media (max-width:440px){
+@media (max-width:360px){
     .navBarColor{
         background-color:#2d2a26cc;
         padding: 5px;

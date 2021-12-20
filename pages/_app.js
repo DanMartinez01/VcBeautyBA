@@ -34,7 +34,7 @@ function MyApp({ Component, pageProps }) {
         </div>
         <div>
           <a
-            href="https://wa.me/2348100000000"
+            href="https://www.instagram.com/vc.beautyba/"
             className="whatsapp_float2"
             target="_blank"
             rel="noopener noreferrer"
