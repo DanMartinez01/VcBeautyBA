@@ -6,7 +6,7 @@ import Link from 'next/dist/client/link';
 
 export const NavComponent = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+        <Navbar className={styles.navBarColor} sticky="top" collapseOnSelect expand="lg" variant="dark">
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
