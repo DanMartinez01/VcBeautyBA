@@ -21,7 +21,7 @@ export default function Home() {
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
       <main>
-        <Carrousel />
+        {/* <Carrousel /> */}
         <Categories />
         <AboutMe />
       </main>
