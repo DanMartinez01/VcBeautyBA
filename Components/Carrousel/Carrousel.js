@@ -16,7 +16,6 @@ export const Carrousel = () => {
                         className="carouselImg"
                         src={CarImg1}
                         alt="First slide"
-                        fluid="true"
                         height="1100px"
                     />
                 </Carousel.Item >
@@ -25,7 +24,6 @@ export const Carrousel = () => {
                         className={styles.carouselImg}
                         src={CarImg4}
                         alt="Second slide"
-                        fluid="true"
                         height="1100px"
                     />
                 </Carousel.Item>
@@ -34,7 +32,6 @@ export const Carrousel = () => {
                         className={styles.carouselImg}
                         src={CarImg3}
                         alt="Third slide"
-                        fluid="true"
                         height="1100px"
                     />
                 </Carousel.Item>
