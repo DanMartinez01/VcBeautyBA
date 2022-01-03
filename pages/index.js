@@ -3,7 +3,15 @@ import styles from '../styles/Home.module.css';
 import Carrousel from '../Components/Carrousel/Carrousel';
 import Categories from '../Components/Categories/Categories';
 import AboutMe from '../Components/AboutMe/AboutMe';
+import Maps from '../Components/Maps/Maps';
 import React, { Component } from 'react';
+
+const location = {
+  address: 'Hipólito Yrigoyen 131, B1744 CNB, Provincia de Buenos Aires',
+  lat: -34.650725373289006,
+  lng: -58.79535839590361,
+}
+
 
 export default function Home() {
   return (
@@ -21,9 +29,9 @@ export default function Home() {
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
       <main>
-        {/* <Carrousel /> */}
         <Categories />
         <AboutMe />
+        <Maps location={location} zoomLevel={17} />
       </main>
     </div >
   )

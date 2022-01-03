@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navBarColor{
     background-color:#2d2a26cc;
-    /* padding: 35px;
-    width: 100%; 
-    margin:0 auto; */
+    padding: 35px;
+    margin:0 auto;
     width: 100%;
     position: fixed;
     color:white;
