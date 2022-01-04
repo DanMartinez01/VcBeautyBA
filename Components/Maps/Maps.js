@@ -16,7 +16,8 @@ const LocationPin = ({ text }) => (
 const Maps = ({ location, zoomLevel }) => (
 
     <div className={styles.map}>
-        <h2 className={styles.mapH2}>Ubicación</h2>
+        <h1 className={styles.mapH2}>Ubicación</h1>
+        <hr />
         <div className={styles.googleMap}>
             <GoogleMapReact
                 bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
