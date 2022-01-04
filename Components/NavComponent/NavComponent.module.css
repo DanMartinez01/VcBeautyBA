@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navBarColor{
-    background-color:#2d2a26cc;
-    padding: 35px;
-    margin:0 auto;
+    background-color:#bc4749;
+    /* padding: 30px; */
+    /* margin:0 auto; */
     width: 100%;
-    position: fixed;
-    color:white;
+    /* position: fixed; */
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -13,10 +12,11 @@
     text-align: center;
 }
 .navBarLink{
-    color:white;
+    color:black;
     margin-right: 1rem;
     text-decoration:none;
     padding:0;
+    letter-spacing: normal;
 }
 .navBarLink:hover{
     color:gray;
