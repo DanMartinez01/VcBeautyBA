@@ -12,16 +12,16 @@ export const NavComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link href="/">
+                        <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Higiene Facial</a>
                         </Link>
-                        <Link href="#link">
+                        <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Glowy Lips</a>
                         </Link>
-                        <Link href="/Contacto/Contacto">
+                        <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Corporal</a>
                         </Link>
-                        <Link href="/Contacto/Contacto">
+                        <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Jornadas</a>
                         </Link>
                         <Link href="https://www.instagram.com/vc.beautyba/">
