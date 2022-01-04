@@ -6,7 +6,7 @@ import Link from 'next/dist/client/link';
 
 export const NavComponent = () => {
     return (
-        <Navbar className={styles.navBarColor} expand="lg" sticky="top" bg="transparent">
+        <Navbar className={styles.navBarColor} expand="lg" sticky="top">
             < Container >
                 <Navbar.Brand href="/">VC Beauty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
