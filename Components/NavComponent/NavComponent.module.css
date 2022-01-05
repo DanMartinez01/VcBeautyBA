@@ -11,10 +11,10 @@
 }
 .navBarLink{
     color:black;
-    text-align: right;
+    text-align: center;
     margin-left: 2rem;
     text-decoration:none;
-    padding:0;
+    padding:0.5rem;
     letter-spacing: normal;
 }
 .navBarLink:hover{
