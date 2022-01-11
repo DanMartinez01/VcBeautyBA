@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
 import styles from './Maps.module.css';
-import GoogleMapReact from 'google-map-react'
-import GrLocationPin from 'react-icons/gr';
+import GoogleMapReact from 'google-map-react';
+import { MdOutlineLocationOn } from 'react-icons/Md';
+
 
 const LocationPin = ({ text }) => (
     <div className={styles.pin}>
-        {/* <Icon icon={GrLocationPin} className={styles.pinIcon} /> */}
-        <p className={styles.pinText}>{text}</p>
-    </div>
+        <span>
+            <p className={styles.pinText}>{text}</p>
+            <MdOutlineLocationOn size="32px" color="red" />
+        </span>
+    </div >
 )
 const Maps = ({ location, zoomLevel }) => (
 

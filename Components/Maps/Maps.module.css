@@ -18,11 +18,13 @@
     display: flex;
     align-items: center;
     width: 180px;
-    color: var(--main-blue);
   }
   
   .pinIcon {
-    font-size: 4rem;
+    color:white;
+    background-color: brown;
+    font-size: large;
+
   }
   
   .pinText {

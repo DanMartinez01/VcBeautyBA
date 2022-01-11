@@ -7,7 +7,7 @@ import Maps from '../Components/Maps/Maps';
 import React, { Component } from 'react';
 
 const location = {
-  address: 'Hipólito Yrigoyen 131, B1744 CNB, Provincia de Buenos Aires',
+  address: 'Hipólito Yrigoyen 131, B1744 CNB, Bs.As.',
   lat: -34.650725373289006,
   lng: -58.79535839590361,
 }
@@ -32,7 +32,7 @@ export default function Home() {
         <Carrousel />
         <Categories />
         <AboutMe />
-        <Maps location={location} zoomLevel={17} />
+        <Maps location={location} zoomLevel={18} />
       </main>
     </div >
   )
