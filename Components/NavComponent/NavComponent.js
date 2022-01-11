@@ -13,7 +13,7 @@ export const NavComponent = () => {
                 <Navbar.Brand href="/">
                     <Image
                         src={Logo}
-                        width="100px"
+                        width="45px"
                         height="40px"
                     />
                 </Navbar.Brand>

@@ -3,10 +3,6 @@ import styles from './Maps.module.css';
 import GoogleMapReact from 'google-map-react'
 import GrLocationPin from 'react-icons/gr';
 
-
-
-console.log('dotenv', process.env.REACT_APP_GOOGLE_MAPS_API_KEY)
-
 const LocationPin = ({ text }) => (
     <div className={styles.pin}>
         {/* <Icon icon={GrLocationPin} className={styles.pinIcon} /> */}
@@ -20,7 +16,7 @@ const Maps = ({ location, zoomLevel }) => (
         <hr />
         <div className={styles.googleMap}>
             <GoogleMapReact
-                bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
+                bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
                 defaultCenter={location}
                 defaultZoom={zoomLevel}
             >

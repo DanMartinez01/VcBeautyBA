@@ -9,6 +9,9 @@
     text-align: center;
     text-transform: uppercase;
 }
+.navbar-brand a{
+margin: 0px;
+}
 .navBarLink{
     color:black;
     text-align: center;
