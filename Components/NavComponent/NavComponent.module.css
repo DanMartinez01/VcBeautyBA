@@ -3,20 +3,17 @@
     background-color: whitesmoke;
     margin:0 auto;
     width: 100%;
-    padding: 0px;
     /* position: fixed; */
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
-.navbar-brand a{
-margin: 0px;
-}
+
 .navBarLink{
     color:black;
     text-align: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
     text-decoration:none;
     padding:0.5rem;
     letter-spacing: normal;
