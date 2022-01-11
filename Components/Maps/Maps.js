@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Maps.module.css';
 import GoogleMapReact from 'google-map-react';
-import { MdOutlineLocationOn } from 'react-icons/Md';
+import { MdOutlineLocationOn } from 'react-icons/md';
 
 
 const LocationPin = ({ text }) => (
