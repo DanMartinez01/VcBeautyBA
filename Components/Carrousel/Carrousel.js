@@ -13,10 +13,10 @@ export const Carrousel = () => {
             <Carousel controls={false} indicators={false}>
                 <Carousel.Item align="center">
                     <Image
-                        className="carouselImg"
+                        className={styles.carouselImg}
                         src={CarImg1}
                         alt="First slide"
-                        height="900px"
+                        height="950px"
                     />
                 </Carousel.Item >
                 <Carousel.Item align="center">
@@ -24,7 +24,7 @@ export const Carrousel = () => {
                         className={styles.carouselImg}
                         src={CarImg4}
                         alt="Second slide"
-                        height="900px"
+                        height="950px"
                     />
                 </Carousel.Item>
                 <Carousel.Item align="center">
@@ -32,7 +32,8 @@ export const Carrousel = () => {
                         className={styles.carouselImg}
                         src={CarImg3}
                         alt="Third slide"
-                        height="900px"
+                        height="950px"
+
                     />
                 </Carousel.Item>
             </Carousel>

@@ -8,7 +8,7 @@ import Logo from '../../Assets/logo.png';
 
 export const NavComponent = () => {
     return (
-        <Navbar className={styles.navBarColor} expand="lg" sticky="top">
+        <Navbar className={styles.navBarColor} expand="lg">
             < Container >
                 <Navbar.Brand href="/">
                     <Image

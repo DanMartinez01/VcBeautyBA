@@ -2,6 +2,7 @@
 .navBarColor{
     background-color: whitesmoke;
     margin:0 auto;
+    margin-bottom: 0px;
     width: 100%;
     /* position: fixed; */
     font-size: 14px;

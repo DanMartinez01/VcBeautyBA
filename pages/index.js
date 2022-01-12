@@ -19,7 +19,7 @@ export default function Home() {
       <Head>
         <title>VcBeautyBa</title>
         <meta name="VcBeautyBA" content="Estética, tratamientos faciales y corporales" />
-        <link rel="icon" href="%PUBLIC_URL%/favicon.jpg" />
+        <link rel="icon" href="%PUBLIC_URL%/3.jpg" />
         {/* Open Graph data  */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="Vc Beauty BA" />
