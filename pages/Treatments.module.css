@@ -5,13 +5,12 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    /* padding: 2rem; */
+    padding: 2rem;
 }
 .treatmentText{
-    padding: 5rem;
-    padding-top: 6rem;
-    text-transform: uppercase;
-    font-size: smaller;
+    padding: 2rem;
+    padding-top: 2rem;
+    font-size: medium;
 }
 .title{
     text-align: center;
@@ -44,7 +43,7 @@
 } */
 .button::after {
     content: "";
-    background-color: pink;
+    background-color:#fFdedf;
     width: 100%;
     z-index: -1;
     position: absolute;

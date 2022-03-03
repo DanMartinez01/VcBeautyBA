@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 .navBarColor{
-    background-color: whitesmoke;
+    background-color:#ffffff;
     margin:0 auto;
     margin-bottom: 0px;
     width: 100%;
     /* position: fixed; */
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .navBarLink{
-    color:black;
+    color:rgba(0, 0, 0, 0.699);
     text-align: center;
     margin-left: 1rem;
     text-decoration:none;

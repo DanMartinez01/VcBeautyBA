@@ -3,20 +3,19 @@
     display:flex;
     flex-direction:row;
     margin-top: 0;
-    padding:1rem;
+    padding-top:2rem;
 }
 .aboutMeTitle{
 padding-top: .5rem;
  font-weight:normal;
 }
-.aboutMeImg{
-  padding-right: .5rem;
-   
-}
+
 .aboutMeText{
     padding: 1rem;
     text-align: center;
-    font-size:small;
+    font-family: 'Roboto', sans-serif;
+    font-size:medium;
+    text-transform: lowercase;
 }
 
 @media (max-width:800px){

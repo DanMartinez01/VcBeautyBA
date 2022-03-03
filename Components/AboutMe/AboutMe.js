@@ -8,7 +8,7 @@ export const AboutMe = () => {
     <div className={styles.container}>
       <Image className={styles.AboutMeImg}
         src={aboutMeImg}
-        width="2000px"
+        width="1900px"
         height="2400px"
         fluid
       />
