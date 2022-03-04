@@ -8,26 +8,26 @@ export const AboutMe = () => {
     <div className={styles.container}>
       <Image className={styles.AboutMeImg}
         src={aboutMeImg}
-        width="1900px"
-        height="2400px"
-        fluid
+        width="1200px"
+        height="1600px"
       />
       <div className={styles.aboutMeText}>
         <h3 className={styles.aboutMeTitle}><b>VC BEAUTY</b></h3>
         <hr />
         <p>
-          ¡EL MAQUILLAJE ES MÁS DE LO QUE IMAGINAMOS! LO USAMOS PARA VERNOS Y SENTIRNOS MEJOR, IMPACTANDO POSITIVAMENTE EN NUESTRA AUTOESTIMA.INFLUYE TAMBIÉN EN LO QUE TRANSMITIMOS A LOS DEMÁS Y AUMENTA NUESTRA CONFIANZA PARA LOGRAR LO QUE NOS PROPONGAMOS.<br />
-          ES FASCINANTE NO? A VECES IMPLEMENTARLO A NUESTRA RUTINA DIARIA NO RESULTA FÁCIL. IMAGÍNATE LEVANTARTE TODOS LOS DÍAS Y ESTAR MAQUILLADA! BUENO, ¡DE ESO NOS OCUPAMOS NOSOTRAS!<br />
-        </p>
-        <p>
-          NUESTRO EQUIPO SE CONFORMA POR PROFESIONALES ALTAMENTE CAPACITADOS Y DEBIDAMENTE CERTIFICADOS CON EXPERIENCIA COMPROBADA. <br />
-          CADA UNO DE LOS INTEGRANTES FUE SELECCIONADO POR SU CAPACIDAD Y POR SU CALIDEZ HUMANA QUE SE VE PLASMADA EN EL TRATO Y LA ATENCIÓN QUE RECIBE NUESTRO PÚBLICO.
-        </p>
-        <p>
-          TENEMOS COMO OBJETIVO POTENCIAR LA BELLEZA NATURAL DE NUESTRAS CLIENTAS Y CONFIAMOS EN QUE MENOS ES MAS.<br /> POR ESO, CUIDAMOS LOS DETALLES, EVITANDO EXCESOS, Y APOSTANDO SIEMPRE A UN RESULTADO ARMÓNICO Y NATURAL.
-        </p>
-        <p>
-          TE INVITO A QUE LOGREMOS JUNTAS TU MEJOR VERSIÓN.
+          Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.
+          <br />
+          Si bien siempre fui una apasionada de la estética y el cuidado personal, mi viaje comenzó cuando a los 24 sufrí un acné hormonal y mi vida cambio. Luego de recorrer cientos de dermatólogos y profesionales en piel sin ningún resultado, me dije a mi misma, algo tengo que hacer y manos a la obra, comencé con toda esta locura.
+          <br />
+          Mi objetivo principal era estudiar para recuperar mi piel y a medida que fui estudiando, me fui enamorando de esta hermosa profesión. Jamás pensé en trabajar de esto, era algo muy para mí y era como una mi pasión que solamente desarrollaba puertas para adentro. Agrego que como buena Geminiana el conocimiento no ocupa lugar por ende me estudie tooooodo y todavía sigo estudiando porque amo capacitarme para brindar lo mejor.
+          <br />
+          Cae la pandemia del COVID19, cuarentena estricta y perdida de mi laburo en ese momento y dije, ¿y si arranco con algo de esto que tanto me gusta? Asique empece con algo muy pequeño, asesorías online de manera virtual obviamente y empece a recuperar pieles, enseñando como cuidarlas y mejorarlas en las rutinas diarias. En unos meses todo fue una locura, no se bien como sucedió, empece a tener seguidores, atender muchísimas personas en gabinete y en diciembre del 2020 lance mi marca artesanal VCbeautyCare.
+          <br />
+          Hoy en dia, ya con mi primera sucursal funcionando puedo decir que toda esta locura tenia un fin. Desde mi lugar, atendemos a las personas y logramos entender que buscan y que necesitan. A las pieles hay que darle amor, muchas veces menos es mas y no se necesita de una gran cantidad de productos o de un buen status económico para cuidarse la piel.
+          <br />
+          Mi misión hoy en dia es lograr sacar la belleza de todas las pieles que atiendo a través de enfocarme en su salud. Para mi y para todo mi equipo la piel es salud y debe tratarse como tal, no me enfoco tanto en las mejorías estéticas sino en construir y enseñar habitos saludables para generar una buena educación y un buen cuidado de la piel, lo que a la larga genera una increíble mejora estética.
+          Te espero para que logremos todo esto juntas!
+          A la piel hay que darle amor
         </p>
       </div>
     </div>

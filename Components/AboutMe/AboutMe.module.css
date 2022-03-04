@@ -9,13 +9,58 @@
 padding-top: .5rem;
  font-weight:normal;
 }
-
+.AboutMeImg{
+    animation: myAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateX(-250px);
+    }
+  
+    38% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0);
+    }
+  
+    55% {
+      animation-timing-function: ease-in;
+      transform: translateX(-68px);
+    }
+  
+    72% {
+      animation-timing-function: ease-out;
+      transform: translateX(0);
+    }
+  
+    81% {
+      animation-timing-function: ease-in;
+      transform: translateX(-28px);
+    }
+  
+    90% {
+      animation-timing-function: ease-out;
+      transform: translateX(0);
+    }
+  
+    95% {
+      animation-timing-function: ease-in;
+      transform: translateX(-8px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      transform: translateX(0);
+    }
+  }
 .aboutMeText{
-    padding: 1rem;
+  width: 100%;
+    padding: .5rem;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size:medium;
-    text-transform: lowercase;
 }
 
 @media (max-width:800px){

@@ -3,7 +3,6 @@ import Image from 'next/image';
 
 import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
-import { MdLocationOn } from 'react-icons/md';
 import { FaInstagram } from 'react-icons/fa';
 import React, { Component } from 'react';
 
@@ -16,7 +15,6 @@ import React, { Component } from 'react';
 export const Footer = () => {
     return (
         <div className={styles.mainFooter}>
-
             <div className={styles.row}>
                 <div className={styles.col}>
                     <ui className="list-unstyled">
@@ -36,40 +34,10 @@ export const Footer = () => {
                             href="https://www.instagram.com/vc.beautyba/">
                             <FaInstagram color="white" /> Instagram
                         </a>
-                        <br />
-                        <li>
-                            <MdLocationOn color="white" /> Moreno
-                        </li>
                     </ui>
                 </div>
-                {/* <div className={styles.payments}>
-                    <Image className={styles.paymentIcon}
-                        alt="mercado pago"
-                        src={mercadopago}
-                        width="40px"
-                        height="20px"
-
-                    />
-                    <Image className={styles.paymentIcon}
-                        alt="pago facil"
-                        src={pagofacil}
-                        width="40px"
-                        height="20px"
-                    />
-                    <Image className={styles.paymentIcon}
-                        alt="visa"
-                        src={visa}
-                        width="40px"
-                        height="20px"
-                    />
-                    <Image className={styles.paymentIcon}
-                        alt="master card"
-                        src={mastercard}
-                        width="35px"
-                        height="20px"
-                    />
-                </div> */}
             </div>
+
             <hr />
             <div>
                 <p className={styles.brandName}>
