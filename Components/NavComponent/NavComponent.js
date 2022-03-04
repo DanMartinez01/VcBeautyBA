@@ -8,7 +8,7 @@ import Logo from '../../Assets/logo.png';
 
 export const NavComponent = () => {
     return (
-        <Navbar className={styles.navBarColor} expand="lg">
+        <Navbar className={styles.navBarColor} expand="lg" fixed="top">
             < Container >
                 <Navbar.Brand href="/">
                     <Image
@@ -20,6 +20,9 @@ export const NavComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
+                        <Link href="/">
+                            <a className={styles.navBarLink}>VcBeautyBa</a>
+                        </Link>
                         <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Higiene Facial</a>
                         </Link>

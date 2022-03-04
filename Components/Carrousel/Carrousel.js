@@ -33,7 +33,6 @@ export const Carrousel = () => {
                         src={CarImg3}
                         alt="Third slide"
                         height="950px"
-
                     />
                 </Carousel.Item>
             </Carousel>
