@@ -36,8 +36,21 @@ export const Footer = () => {
                         </a>
                     </ui>
                 </div>
-            </div>
+                <div className={styles.col}>
+                    <a className={styles.footerLinks}>
+                        Inicio
+                    </a>
+                    <br />
+                    <a className={styles.footerLinks}>
+                        Tratamientos
+                    </a>
+                    <br />
+                    <a className={styles.footerLinks}>
+                        Turnos
+                    </a>
 
+                </div>
+            </div>
             <hr />
             <div>
                 <p className={styles.brandName}>
