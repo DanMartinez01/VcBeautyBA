@@ -8,6 +8,7 @@ import React, { Component } from 'react';
 export const Categories = () => {
     return (
         <div className={styles.container}>
+            <h3 className={styles.Header}>Nuestros servicios</h3>
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>
