@@ -1,69 +1,29 @@
 
 .container{
     display:flex;
-    flex-direction:row;
     margin-top: 0;
     padding-top:2rem;
 }
 .aboutMeTitle{
-padding-top: .5rem;
- font-weight:normal;
+    font-family: 'Roboto', sans-serif;
+    padding-top: .5rem;
+    font-weight:normal;
 }
 .AboutMeImg{
-    animation: myAnim 1s ease 0s 1 normal forwards;
-}
-@keyframes myAnim {
-    0% {
-      animation-timing-function: ease-in;
-      opacity: 0;
-      transform: translateX(-250px);
-    }
-  
-    38% {
-      animation-timing-function: ease-out;
-      opacity: 1;
-      transform: translateX(0);
-    }
-  
-    55% {
-      animation-timing-function: ease-in;
-      transform: translateX(-68px);
-    }
-  
-    72% {
-      animation-timing-function: ease-out;
-      transform: translateX(0);
-    }
-  
-    81% {
-      animation-timing-function: ease-in;
-      transform: translateX(-28px);
-    }
-  
-    90% {
-      animation-timing-function: ease-out;
-      transform: translateX(0);
-    }
-  
-    95% {
-      animation-timing-function: ease-in;
-      transform: translateX(-8px);
-    }
-  
-    100% {
-      animation-timing-function: ease-out;
-      transform: translateX(0);
-    }
-  }
-.aboutMeText{
   width: 100%;
+  object-fit: contain;
+  align-self: flex-start;
+}
+
+.aboutMeText{
+    flex: 1 1 auto;
     padding: .5rem;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family:'CentaurMT';
     font-size:medium;
 }
 
-@media (max-width:800px){
+@media (max-width:1200px){
     .container{
         flex-direction:column;
         padding:0px;

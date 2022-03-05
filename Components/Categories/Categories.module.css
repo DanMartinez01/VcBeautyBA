@@ -18,12 +18,12 @@
 .CardText{
     width: 100%;
     height: 100px;
-    color: rgba(0, 0, 0, 0.699);
+    color: white;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size:xx-large;
-    text-transform: uppercase;
     letter-spacing: 5px;
-    background-color: rgba(228, 219, 205, 0.466);
+    background-color: #ffb4b44d;
     position: absolute;
     z-index: 100;
     top: 50%;
