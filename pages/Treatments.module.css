@@ -10,39 +10,34 @@
 .treatmentText{
     padding: 2rem;
     padding-top: 2rem;
-    font-size: medium;
+    font-size: 20px;
 }
 .title{
     font-family: 'Roboto', sans-serif;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 2rem;
     font-weight: normal;
     letter-spacing: 5px;
     color: rgba(0, 0, 0, 0.699);
 }
+.buttonContainer{
+    text-align: right;
+    margin-right: 4rem ;
+}
 .button{
+    font-family: 'Roboto', sans-serif;
     background-color:#ffb4b4;
+    color: white;
     font-size: 16px;
     font-weight: 200;
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 13px 50px 13px;
-    outline: 0;
-    border: 1px solid rgba(0, 0, 0, 0.747);
-    cursor: pointer;
-    position: relative;
-    
+    outline: none;
+    border: none;
 }
-.button::after {
-    content: "";
-    background-color:#fFdedf;
-    width: 100%;
-    z-index: -1;
-    position: absolute;
-    height: 100%;
-    top: 7px;
-    left: 7px;
-  }
+
 .a{
     text-decoration: none;
 }

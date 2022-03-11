@@ -20,20 +20,21 @@ export const NavComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
-                        <Link href="/">
-                            <a className={styles.navBarLink}>VcBeautyBa</a>
-                        </Link>
-                        <Link href="/HigieneFacial/HigieneFacial">
+                        <NavDropdown title="Aparatologia" className={styles.dropdownMenu}>
+                            <NavDropdown.Item href="#action/3.1" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.2" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                        </NavDropdown>
+                        <Link href="/HigieneFacial">
                             <a className={styles.navBarLink}>Higiene Facial</a>
                         </Link>
-                        <Link href="/HigieneFacial/HigieneFacial">
+                        <Link href="/GlowyLips">
                             <a className={styles.navBarLink}>Glowy Lips</a>
                         </Link>
                         <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Corporal</a>
                         </Link>
                         <Link href="/HigieneFacial/HigieneFacial">
-                            <a className={styles.navBarLink}>Jornadas</a>
+                            <a className={styles.navBarLink}>Asesorías </a>
                         </Link>
                         <Link href="https://www.instagram.com/vc.beautyba/">
                             <a className={styles.navBarLink}>Turnos</a>

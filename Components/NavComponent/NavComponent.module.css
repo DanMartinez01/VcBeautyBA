@@ -1,5 +1,5 @@
 .navBarColor{
-    background-color:#f4f3f3;
+    background-color: #ffff;
     margin:0 auto;
     margin-bottom: 0px;
     width: 100%;
@@ -20,6 +20,14 @@
 }
 .navBarLink:hover{
     color:gray;
+}
+.NavDropdown{
+    font-family: 'Roboto', sans-serif;
+    color:rgba(0, 0, 0, 0.699);
+    text-align: center;
+    text-decoration:none;
+    padding:0.5rem;
+    letter-spacing: normal;
 }
 
 /* @media (max-width:600px){
