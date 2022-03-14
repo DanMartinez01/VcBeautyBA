@@ -1,14 +1,25 @@
+import React, { Component } from 'react';
 import data from '../../data.json';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Categories.module.css';
-import React, { Component } from 'react';
+import Logo from '../../Assets/logo.png';
+
 
 
 export const Categories = () => {
     return (
         <div className={styles.container}>
-            <h3 className={styles.Header}>Nuestros servicios</h3>
+
+            <div className={styles.Header}>
+                <Image className={styles.Image}
+                    src={Logo}
+                    width="60px"
+                    height="60px"
+                />
+                Nuestros servicios
+            </div>
+
             {data.map((item) => (
                 <div className={styles.Card} key={item.id}>
                     <div className={styles.CardText}>

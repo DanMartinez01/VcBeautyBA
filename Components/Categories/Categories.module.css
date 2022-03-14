@@ -8,6 +8,10 @@
     margin-bottom: 0px;
 }
 .Header{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
     width: 100%;
     height: 100px;
     color: white;
@@ -15,11 +19,9 @@
     text-decoration: none;
     font-size:xx-large;
     letter-spacing: 5px;
-    background-color: #ffb4b4;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    background-color:#ffdedf;
 }
+
 .Card{
     margin: 0 auto;
     /* margin-bottom: 1rem; */
