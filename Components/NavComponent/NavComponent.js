@@ -14,8 +14,8 @@ export const NavComponent = () => {
                 <Navbar.Brand href="/">
                     <Image
                         src={Logo}
-                        width="45px"
-                        height="40px"
+                        width="60px"
+                        height="60px"
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

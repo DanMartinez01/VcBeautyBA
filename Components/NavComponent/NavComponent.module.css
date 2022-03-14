@@ -1,7 +1,7 @@
 .navBarColor{
-  background-color: #ffff;
+  background-color: white;
   margin:0 auto;
-  margin-bottom: 0px;
+  padding: 0;
   width: 100%;
   /* position: fixed; */
   font-size: 16px;
