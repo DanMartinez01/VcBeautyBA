@@ -17,7 +17,7 @@ export const Categories = () => {
                     width="60px"
                     height="60px"
                 />
-                Nuestros servicios
+                Servicios
             </div>
 
             {data.map((item) => (
