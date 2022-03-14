@@ -1,3 +1,4 @@
+
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
 import Image from 'next/dist/client/image';
 import styles from './NavComponent.module.css';
@@ -18,19 +19,23 @@ export const NavComponent = () => {
                     />
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
+                <Navbar.Collapse>
                     <Nav className="me-auto">
-                        <NavDropdown title="Aparatologia" className={styles.dropdownMenu}>
+                        <NavDropdown title="Facial" className={styles.navBarLink}>
+                            <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
+                            <NavDropdown.Item href="/Peeling" className={styles.NavDropdown}>Peeling</NavDropdown.Item>
+                            <NavDropdown.Item href="/GlowyLips" className={styles.NavDropdown}>Glowy lips</NavDropdown.Item>
+                            <NavDropdown.Item href="/DermaFullFace" className={styles.NavDropdown}>Derma Full Face Vc</NavDropdown.Item>
+                            <NavDropdown.Item href="/TratamientoAntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
+                            <NavDropdown.Item href="/DermaPlanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown title="Aparatologia" className={styles.navBarLink}>
                             <NavDropdown.Item href="#action/3.1" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
-                        <Link href="/HigieneFacial">
-                            <a className={styles.navBarLink}>Higiene Facial</a>
-                        </Link>
-                        <Link href="/GlowyLips">
-                            <a className={styles.navBarLink}>Glowy Lips</a>
-                        </Link>
-                        <Link href="/HigieneFacial/HigieneFacial">
+                        <Nav.Link href="#home">Asesorías</Nav.Link>
+                        <Nav.Link href="#link">Turnos</Nav.Link>
+                        {/* <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Corporal</a>
                         </Link>
                         <Link href="/HigieneFacial/HigieneFacial">
@@ -38,7 +43,7 @@ export const NavComponent = () => {
                         </Link>
                         <Link href="https://www.instagram.com/vc.beautyba/">
                             <a className={styles.navBarLink}>Turnos</a>
-                        </Link>
+                        </Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container >

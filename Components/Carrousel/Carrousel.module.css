@@ -1,3 +1,9 @@
 .container{
     margin-top: 50px;
 }
+
+@media (max-width:800px){
+    .container{
+        margin-top: 80px;
+    }
+}
