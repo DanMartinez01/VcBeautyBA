@@ -9,8 +9,7 @@ import Logo from '../../Assets/logo.png';
 
 export const Categories = () => {
     return (
-        <div className={styles.container}>
-
+        <div>
             <div className={styles.Header}>
                 <Image className={styles.Image}
                     src={Logo}
@@ -19,25 +18,26 @@ export const Categories = () => {
                 />
                 Servicios
             </div>
-
-            {data.map((item) => (
-                <div className={styles.Card} key={item.id}>
-                    <div className={styles.CardText}>
+            <div className={styles.container}>
+                {data.map((item) => (
+                    <div className={styles.Card} key={item.id}>
+                        {/* <div className={styles.CardText}>
                         <Link href={item.route}>
                             <a className={styles.CardText}>{item.title}</a>
                         </Link>
+                    </div> */}
+                        <Image className={styles.categoriesImg}
+                            src={item.file}
+                            width="400"
+                            height="250"
+                            alt="Categorias"
+                        />
                     </div>
-                    <Image
-                        src={item.file}
-                        width="670px"
-                        height="460px"
-                        alt="Categorias"
-                    />
-                </div>
 
-            ))
-            }
-        </div >
+                ))
+                }
+            </div >
+        </div>
 
     )
 }

@@ -24,7 +24,7 @@ const Maps = ({ location, zoomLevel }) => (
             />
             Ubicación
         </div>
-        <hr />
+        {/* <hr /> */}
         <div className={styles.map}>
             <div className={styles.googleMap}>
                 <GoogleMapReact

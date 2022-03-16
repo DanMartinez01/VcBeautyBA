@@ -26,5 +26,19 @@
         "level": "Basic",
         "file": "https://www.infobae.com/new-resizer/El_bYQvDUQyp0wCA8MnGcfOQJ6c=/1024x512/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/DTHRIGSLQFE5JE2L4YBUAYXCWQ.jpg",
         "route": "/HigieneFacial/HigieneFacial"
+    },
+    {
+        "id": "cat4",
+        "title": "Dermaplanning",
+        "level": "Basic",
+        "file": "https://www.infobae.com/new-resizer/El_bYQvDUQyp0wCA8MnGcfOQJ6c=/1024x512/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/DTHRIGSLQFE5JE2L4YBUAYXCWQ.jpg",
+        "route": "/HigieneFacial/HigieneFacial"
+    },
+    {
+        "id": "cat4",
+        "title": "Dermaplanning",
+        "level": "Basic",
+        "file": "https://www.infobae.com/new-resizer/El_bYQvDUQyp0wCA8MnGcfOQJ6c=/1024x512/filters:format(jpg):quality(85)//cloudfront-us-east-1.images.arcpublishing.com/infobae/DTHRIGSLQFE5JE2L4YBUAYXCWQ.jpg",
+        "route": "/HigieneFacial/HigieneFacial"
     }
 ]
