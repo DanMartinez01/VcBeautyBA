@@ -6,11 +6,13 @@ import React, { Component } from 'react';
 export const AboutMe = () => {
   return (
     <div className={styles.container}>
-      <Image className={styles.AboutMeImg}
-        src={aboutMeImg}
-        width="2000px"
-        height="2400px"
-      />
+      <div className={styles.ImgWrapper}>
+        <Image className={styles.AboutMeImg}
+          src={aboutMeImg}
+          width="2000px"
+          height="2400px"
+        />
+      </div>
       <div className={styles.aboutMeText}>
         <h3 className={styles.aboutMeTitle}><b>VC BEAUTY</b></h3>
         <hr />

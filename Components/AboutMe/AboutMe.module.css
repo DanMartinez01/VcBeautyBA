@@ -10,10 +10,13 @@
     padding-top: .5rem;
     font-weight:normal;
 }
-.AboutMeImg{
+.ImgWrapper{
   width: 100%;
   object-fit: contain;
   align-self: flex-start;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 1rem;
 }
 
 .aboutMeText{
@@ -33,9 +36,9 @@
     .aboutMeText{
         padding:1rem;
     }
-    .aboutMeImg{
-        width: 100%;
-        padding:0;
-        margin: 0;
+    .ImgWrapper{
+        width: 90%;
+        align-self: center;
+        border-radius: 20px;
     }
 }
