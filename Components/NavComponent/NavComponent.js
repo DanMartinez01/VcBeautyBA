@@ -25,16 +25,16 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
                             <NavDropdown.Item href="/Peeling" className={styles.NavDropdown}>Peeling</NavDropdown.Item>
                             <NavDropdown.Item href="/GlowyLips" className={styles.NavDropdown}>Glowy lips</NavDropdown.Item>
-                            <NavDropdown.Item href="/DermaFullFace" className={styles.NavDropdown}>Derma Full Face Vc</NavDropdown.Item>
-                            <NavDropdown.Item href="/TratamientoAntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
+                            <NavDropdown.Item href="/DermaFull" className={styles.NavDropdown}>Derma Full Face Vc</NavDropdown.Item>
+                            <NavDropdown.Item href="/AntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
                             <NavDropdown.Item href="/DermaPlanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Aparatologia" className={styles.navBarLink}>
                             <NavDropdown.Item href="#action/3.1" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/Asesorias">Asesorías</Nav.Link>
-                        <Nav.Link href="#link">Turnos</Nav.Link>
+                        <Nav.Link ><Link href="/Asesorias" ><a className={styles.navBarLink}>Asesorías</a></Link></Nav.Link>
+
                         {/* <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Corporal</a>
                         </Link>
