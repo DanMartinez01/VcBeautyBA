@@ -7,11 +7,21 @@
     padding: 4rem;
 }
 .categoriesStripe{
-    width: 100%;
-    padding:6rem;
-    background-color: #ffb4b4;
     display: flex;
+    padding:.5rem;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 50%, 100% 100%, 0% 100%);
+    background-color: #ffb4b4;
+    color: white;
+    font-weight: 400;
+    justify-items:center ;
 }
+.categoriesTitle{
+    margin: auto;
+    margin-top: 4rem;
+    flex-shrink: inherit;
+}
+
+
 .title{
     align-items:baseline;
     justify-content:baseline;
@@ -21,6 +31,7 @@
     padding: 2rem;
     padding-top: 2rem;
     font-size: 20px;
+    justify-content: space-evenly;
 }
 
 .buttonContainer{
@@ -48,9 +59,11 @@
 @media (max-width:900px){
     .container{
         flex-direction: column;
+        padding: 1rem;
     }
     .treatmentText{
-        padding: 2rem;
+        padding: 1rem;
+        margin: 0;
     }
 }
 @media (max-width:800px){
@@ -60,4 +73,25 @@
 .treatmentText{
     font-size: 14px;
 }
+}
+@media (min-width:600px){
+    .categoriesStripe{
+        width:25%;
+        padding: 1rem;
+    }
+    
+}
+@media (min-width:400px){
+    .categoriesStripe{
+        width:35%;
+        padding: 1rem;
+    }
+    
+}
+@media (min-width:300px){
+    .categoriesStripe{
+        width:40%;
+        padding: 1rem;
+    }
+    
 }

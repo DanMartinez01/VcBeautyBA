@@ -33,7 +33,7 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="#action/3.1" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="#action/3.2" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#home">Asesorías</Nav.Link>
+                        <Nav.Link href="/Asesorias">Asesorías</Nav.Link>
                         <Nav.Link href="#link">Turnos</Nav.Link>
                         {/* <Link href="/HigieneFacial/HigieneFacial">
                             <a className={styles.navBarLink}>Corporal</a>
