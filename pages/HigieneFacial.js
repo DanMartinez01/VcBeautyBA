@@ -6,6 +6,9 @@ import imgLimpieza from '../Assets/5.jpg';
 export const Treatment = () => {
     return (
         <div>
+            <div className={styles.categoriesStripe}>
+                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+            </div>
             <div className={styles.container} >
                 <Image className={styles.treatmentImg}
                     src={imgLimpieza}

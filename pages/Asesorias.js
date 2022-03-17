@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/5.jpg';
+import imgLimpieza from '../Assets/asesorias.jpg';
 
 export const Asesorias = () => {
     return (
@@ -21,12 +21,14 @@ export const Asesorias = () => {
                         Estos planes cuentan con indicaciones de rutinas de higiene que generalmente son dos por día durante la mañana y la noche, y una higiene profunda por semana.  También realizo la asesoría de productos afínes a comprar para tu biotipo cutáneo y toda una sección que cuenta con consejos y #VCtips que te doy para que los pongas en practica.<br />
                         El formato es digital, se entrega un documento de word que consta de 8 hojas con todas las explicaciones detalladas y mis teléfonos de contacto por si surgen dudas, estamos siempre en contacto.<br />
                         La modalidad es de forma online por audio de WhatsApp, videollamada, Skype o GoogleMeet. Luego de abonar el importe total se reserva un turno, coordinamos día y horario y charlamos durante una hora aproximadamente, lo importante es que evacuen bien las dudas.<br />
-                        Previamente  a nuesro encunetro, te envío una ficha cosmetológica via email en formato word para que me completes y mandes 24 hs antes, diseñada con preguntas en clave para poder descartar afecciones y determinadas cuestiones junto con una serie de fotos que te pido que me envíes por WhatsApp o mail (NO se diagnóstica por videollamada al momento de realizar la consulta porque se pierde la calidad y es poco preciso.)<br />
+                        Previamente  a nuestro encuentro, te envío una ficha cosmetológica via email en formato word para que me completes y mandes 24 hs antes, diseñada con preguntas en clave para poder descartar afecciones y determinadas cuestiones junto con una serie de fotos que te pido que me envíes por WhatsApp o mail (NO se diagnóstica por videollamada al momento de realizar la consulta porque se pierde la calidad y es poco preciso.)<br />
                         Se puede abonar por Mercado Pago (tiene un 10% de recargo por la aplicación), por transferencia bancaria o en efectivo. Una vez efectuado el pago, se coordina día y horario y pactamos la asesoría.
 
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>Pedir turno</span>
+                        </button>
                     </div>
 
                 </div>

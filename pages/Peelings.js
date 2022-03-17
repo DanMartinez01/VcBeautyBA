@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/5.jpg';
+import peeling from '../Assets/peeling.jpg';
 
 export const Peelings = () => {
     return (
@@ -11,7 +11,7 @@ export const Peelings = () => {
             </div>
             <div className={styles.container} >
                 <Image className={styles.treatmentImg}
-                    src={imgLimpieza}
+                    src={peeling}
                     width="1800px"
                     height="2400px"
                 />
