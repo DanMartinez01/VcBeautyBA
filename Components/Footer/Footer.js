@@ -1,5 +1,6 @@
 import styles from '../Footer/Footer.module.css';
 import Image from 'next/image';
+import logo from '../../Assets/Logo.png';
 
 import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
@@ -18,8 +19,30 @@ export const Footer = () => {
             <div className={styles.row}>
                 <div className={styles.col}>
                     <ui className="list-unstyled">
+                        <Image
+                            src={logo}
+                            width="50px"
+                            height="50px"
+                        />
+                    </ui>
+                </div>
+                <div className={styles.col}>
+                    <a className={styles.footerLinks}>
+                        Inicio
+                    </a>
+                    <br />
+                    <a className={styles.footerLinks}>
+                        Tratamientos
+                    </a>
+                    <br />
+                    <a className={styles.footerLinks}>
+                        Turnos
+                    </a>
+                </div>
+                <div className={styles.col}>
+                    <ui className="list-unstyled">
                         <a className={styles.footerLinks}
-                            href="https://wa.me/5491130666726"
+                            href="https://wa.me/1111111111"
                             target="_blank"
                             rel="noopener noreferrer" >
                             <SiWhatsapp color="white" /> 111111111
@@ -36,25 +59,11 @@ export const Footer = () => {
                         </a>
                     </ui>
                 </div>
-                <div className={styles.col}>
-                    <a className={styles.footerLinks}>
-                        Inicio
-                    </a>
-                    <br />
-                    <a className={styles.footerLinks}>
-                        Tratamientos
-                    </a>
-                    <br />
-                    <a className={styles.footerLinks}>
-                        Turnos
-                    </a>
-
-                </div>
             </div>
             <hr />
             <div>
                 <p className={styles.brandName}>
-                    VcBeautyBA &copy;{new Date().getFullYear()}
+                    vcbeautyba &copy;{new Date().getFullYear()}
                 </p>
             </div>
         </div>

@@ -16,6 +16,7 @@
     color:white;
     text-decoration: none;
     margin-bottom: 1rem;
+    font-size: small;
 }
 .mainFooter a{
     margin-bottom: 1rem;
@@ -30,7 +31,7 @@
     margin: 1rem;
 }
 .col{
-    margin: .5rem;
+    margin-right: 2rem;
 }
 .payments{
     margin-top: 1rem;
