@@ -17,6 +17,7 @@ export const Asesorias = () => {
                 />
                 <div className={styles.treatmentText}>
                     <p>
+                        <h1 className={styles.title}>Asesorías</h1>
                         La mayoría de mis pacientes realizan asesorías online que incluye un diagnóstico de afecciones cutáneas en donde planteamos un objetivo alcanzable y posteriormente un diseño y armado de plan de rutinas y productos en base a lo que cada persona necesita,  a tu medida y que sea único y especial para vos. <br />
                         Estos planes cuentan con indicaciones de rutinas de higiene que generalmente son dos por día durante la mañana y la noche, y una higiene profunda por semana.  También realizo la asesoría de productos afínes a comprar para tu biotipo cutáneo y toda una sección que cuenta con consejos y #VCtips que te doy para que los pongas en practica.<br />
                         El formato es digital, se entrega un documento de word que consta de 8 hojas con todas las explicaciones detalladas y mis teléfonos de contacto por si surgen dudas, estamos siempre en contacto.<br />

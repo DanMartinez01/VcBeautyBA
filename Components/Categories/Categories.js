@@ -21,17 +21,18 @@ export const Categories = () => {
             <div className={styles.container}>
                 {data.map((item) => (
                     <div className={styles.Card} key={item.id}>
-                        {/* <div className={styles.CardText}>
-                        <Link href={item.route}>
-                            <a className={styles.CardText}>{item.title}</a>
-                        </Link>
-                    </div> */}
+
                         <Image className={styles.categoriesImg}
                             src={item.file}
                             width="400"
                             height="250"
                             alt="Categorias"
                         />
+                        <div className={styles.CardText}>
+                            <Link href={item.route}>
+                                <a className={styles.CardText}>{item.title}</a>
+                            </Link>
+                        </div>
                     </div>
 
                 ))

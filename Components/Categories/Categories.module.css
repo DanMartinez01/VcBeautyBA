@@ -26,8 +26,7 @@
 .Card{
     margin:auto;
     margin-bottom: 1rem;
-    position: relative;
-    padding-bottom: 6rem;
+    padding-bottom: 3rem;
     border-radius: 20px;
     box-shadow: 5px 5px 10px 5px #E8E8E8;
 }
@@ -40,11 +39,6 @@
     font-size:xx-large;
     letter-spacing: 5px;
     background-color: #ffb4b44d;
-    position: absolute;
-    z-index: 100;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
     justify-content: center;

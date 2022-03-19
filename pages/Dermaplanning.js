@@ -17,12 +17,12 @@ export const Dermaplanning = () => {
                 />
                 <div className={styles.treatmentText}>
                     <p>
-                        La mayoría de mis pacientes realizan asesorías online que incluye un diagnóstico de afecciones cutáneas en donde planteamos un objetivo alcanzable y posteriormente un diseño y armado de plan de rutinas y productos en base a lo que cada persona necesita,  a tu medida y que sea único y especial para vos. <br />
-                        Estos planes cuentan con indicaciones de rutinas de higiene que generalmente son dos por día durante la mañana y la noche, y una higiene profunda por semana.  También realizo la asesoría de productos afínes a comprar para tu biotipo cutáneo y toda una sección que cuenta con consejos y #VCtips que te doy para que los pongas en practica.<br />
-                        El formato es digital, se entrega un documento de word que consta de 8 hojas con todas las explicaciones detalladas y mis teléfonos de contacto por si surgen dudas, estamos siempre en contacto.<br />
-                        La modalidad es de forma online por audio de WhatsApp, videollamada, Skype o GoogleMeet. Luego de abonar el importe total se reserva un turno, coordinamos día y horario y charlamos durante una hora aproximadamente, lo importante es que evacuen bien las dudas.<br />
-                        Previamente  a nuesro encunetro, te envío una ficha cosmetológica via email en formato word para que me completes y mandes 24 hs antes, diseñada con preguntas en clave para poder descartar afecciones y determinadas cuestiones junto con una serie de fotos que te pido que me envíes por WhatsApp o mail (NO se diagnóstica por videollamada al momento de realizar la consulta porque se pierde la calidad y es poco preciso.)<br />
-                        Se puede abonar por Mercado Pago (tiene un 10% de recargo por la aplicación), por transferencia bancaria o en efectivo. Una vez efectuado el pago, se coordina día y horario y pactamos la asesoría.
+                        <h1 className={styles.title}>Dermaplanning</h1>
+                        El Dermaplaning es un método de exfoliación físico que consiste en utilizar un bisturí de calibre 10 para raspar suavemente la capa superior de la piel constituida por células muertas y vello, con el fin de revelar una tez más brillante, suave,  asi como también estimular la renovación epidérmica y la síntesis de colágeno, mejorando el aspecto general de la piel ayudando a convertir arrugas o líneas de expresión menos perceptibles.<br />
+                        Es un tratamiento ideal para hombres y mujeres que deseen eliminar el vello facial y mejorar la estructura de la piel logrando un acabado suave y sedoso asi como también es un método de exfoliación perfecta para pacientes con pieles sensibles y rosácea.<br />
+                        El dermaplaning también puede funcionar cmo un tratamiento de preparación para otras intervenciones estéticas, cosméticas o cosmetológicas debido a que luego de realizarlo se produce una mejora en la absorción cutánea de los acitvos cosméticos que se puedan aplicar sobre el estrato corneo, ya sean activos químicos, alcalinos o maquillaje.<br />
+                        Se realiza en gabinete luego de una preparación de la piel y posteriormente se colocan mascaras afines para tratar las diversas problemáticas que la piel presente en cada caso. No requiere de cuidados previos ni posteriores y es totalmente ambulatorio. <br /> <br />
+                        <b>Duracion:</b> el tratamiento dura aproximadamente 1 hora.
 
                     </p>
                     <div className={styles.buttonContainer}>

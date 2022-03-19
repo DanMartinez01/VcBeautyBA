@@ -17,14 +17,15 @@ export const Treatment = () => {
                 />
                 <div className={styles.treatmentText}>
                     <p>
+                        <h1 className={styles.title}>Higiene Facial</h1>
                         <b> Higiene simple:</b> <br />
                         La higiene simple (sin extracción) incluye preparación de la piel, limpieza, afinamiento de la capa córnea, aplicación de lociones, mascarillas afines y protección de la piel.Se cambia máscara según problemática.<br />
-                        DURACIÓN: 1 hora
+                        <b>Duración</b> 1 hora
                     </p>
                     <p>
                         <b>Higiene profunda con extracciones:</b> <br />
                         La higiene profunda con extracción incluye preparación de la piel, limpieza, afinamiento de la capa córnea, extracción de comedones, espinillas y pustulas (en el caso que hubiera), aplicación de lociones, mascarillas afines y protección de la piel.<br />
-                        DURACIÓN: 1 y 30- 2 horas aproximadamente.
+                        <b>Duración</b>: 1 y 30- 2 horas aproximadamente.
                     </p>
                     <div className={styles.buttonContainer}>
                         <button className={styles.button}>Pedir turno</button>

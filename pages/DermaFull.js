@@ -17,12 +17,12 @@ export const DermaFull = () => {
                 />
                 <div className={styles.treatmentText}>
                     <p>
-                        La mayoría de mis pacientes realizan asesorías online que incluye un diagnóstico de afecciones cutáneas en donde planteamos un objetivo alcanzable y posteriormente un diseño y armado de plan de rutinas y productos en base a lo que cada persona necesita,  a tu medida y que sea único y especial para vos. <br />
-                        Estos planes cuentan con indicaciones de rutinas de higiene que generalmente son dos por día durante la mañana y la noche, y una higiene profunda por semana.  También realizo la asesoría de productos afínes a comprar para tu biotipo cutáneo y toda una sección que cuenta con consejos y #VCtips que te doy para que los pongas en practica.<br />
-                        El formato es digital, se entrega un documento de word que consta de 8 hojas con todas las explicaciones detalladas y mis teléfonos de contacto por si surgen dudas, estamos siempre en contacto.<br />
-                        La modalidad es de forma online por audio de WhatsApp, videollamada, Skype o GoogleMeet. Luego de abonar el importe total se reserva un turno, coordinamos día y horario y charlamos durante una hora aproximadamente, lo importante es que evacuen bien las dudas.<br />
-                        Previamente  a nuesro encunetro, te envío una ficha cosmetológica via email en formato word para que me completes y mandes 24 hs antes, diseñada con preguntas en clave para poder descartar afecciones y determinadas cuestiones junto con una serie de fotos que te pido que me envíes por WhatsApp o mail (NO se diagnóstica por videollamada al momento de realizar la consulta porque se pierde la calidad y es poco preciso.)<br />
-                        Se puede abonar por Mercado Pago (tiene un 10% de recargo por la aplicación), por transferencia bancaria o en efectivo. Una vez efectuado el pago, se coordina día y horario y pactamos la asesoría.
+                        <h1 className={styles.title}>Derma Full Face VC</h1>
+                        El microneedling es una terapia no invasiva de inducción antiaging e hidratante más efectiva,  que consiste en micropunciones en la piel logrando que los activos que posteriormente apliquemos penetren de manera más efectiva en las capas más profundas de la piel.<br />
+                        En gabinete realizamos la preparación correspondiente de la piel, exfoliaciones previas, asi como también asepsia y tonificación de la piel para luego aplicar, o no, una crema anestésica local y comenzar con las micropunciones. A través del sistema microneedling mejor conocido como Dermapen inyectamos microscópicamente algunos activos principales afines según problemática. Se suele aplicar ácido hialurónico, vitaminas A, C o E, péptidos de última generación, oro 24k y niacinamida.<br />
+                        Se puede tratar rostro completo, contorno de ojos y zona orbicular, surco nasogeniano o de marioneta, arrugas perilabiales o bien las zonas que se deseen tratar en cada caso. No requiere de preparación previa o posterior y es totalmente ambulatorio.  Es indoloro y totalmente invasivo pero eficaz. <br />
+                        Luego de su aplicación se pueden observar las zonas un poco enrojecidas o irritadas por la presión y las incisiones de las micro agujas así como también, pueden no observarse alteraciones.<br /><br />
+                        <b>Duración:</b> el procedimiento dura aproximadamente 1 hora, 1 hora y media.
 
                     </p>
                     <div className={styles.buttonContainer}>

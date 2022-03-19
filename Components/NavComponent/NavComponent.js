@@ -12,11 +12,15 @@ export const NavComponent = () => {
         <Navbar className={styles.navBarColor} expand="lg" fixed="top" >
             < Container >
                 <Navbar.Brand href="/">
-                    <Image
-                        src={Logo}
-                        width="60px"
-                        height="60px"
-                    />
+                    <span className={styles.logoSpan}>
+                        <Image
+                            src={Logo}
+                            width="60px"
+                            height="60px"
+                        />
+                        <h6 className={styles.logoText}> vcbeauty</h6>
+                    </span>
+
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
@@ -30,8 +34,8 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/Dermaplanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Aparatologia" className={styles.navBarLink}>
-                            <NavDropdown.Item href="#action/3.1" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link ><Link href="/Asesorias" ><a className={styles.navBarLink}>Asesorías</a></Link></Nav.Link>
 
