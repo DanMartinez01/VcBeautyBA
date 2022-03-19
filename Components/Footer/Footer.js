@@ -1,6 +1,6 @@
 import styles from '../Footer/Footer.module.css';
 import Image from 'next/image';
-import logo from '../../Assets/Logo.png';
+import Logo from '../../Assets/logo.png';
 
 import { ImFacebook } from 'react-icons/im';
 import { SiWhatsapp } from "react-icons/si";
@@ -20,7 +20,7 @@ export const Footer = () => {
                 <div className={styles.col}>
                     <ui className="list-unstyled">
                         <Image
-                            src={logo}
+                            src={Logo}
                             width="50px"
                             height="50px"
                         />
