@@ -18,7 +18,7 @@ export const CrioradiofrecuenciaFacial = () => {
                 <div className={styles.treatmentText}>
                     <p>
                         <h1 className={styles.title}>Crioradiofrecuencia facial</h1>
-                        LA CRIORADIOFRECUENCIA Es una terapia que combina la temperatura de la dermis en 10 grados bajo cero (crio), e internamente hasta 50 grados (radiofrecuencia multipolar) el shock producido por esta combinación frío externo y calor interno produce un aumento de colageno y elastina incrementando el tensado de la piel, CONSIGUIENDO ASÍ DISMINUIR LA FLACIDEZ Y REJUVENECIENDO DEL ÁREA EN CUESTIÓN". <br />
+                        LA CRIORADIOFRECUENCIA Es una terapia que combina la temperatura de la dermis en 10 grados bajo cero (crio), e internamente hasta 50 grados (radiofrecuencia multipolar) el shock producido por esta combinación frío externo y calor interno produce un aumento de colageno y elastina incrementando el tensado de la piel, CONSIGUIENDO ASÍ DISMINUIR LA FLACIDEZ Y REJUVENECIENDO DEL ÁREA EN CUESTIÓN. <br />
                         Además de mejorar la flacidez y las líneas de expresión, tiene un efecto tensor y flash durante las primeras 48 horas. Este efecto inmediato, con una gran luminosidad, está convirtiendo a la crio radiofrecuencia facial en uno de los tratamientos favoritos de las celebrities para pisar la alfombra roja.<br />
                         Los resultados se ven a partir de la 1ra sesión, se aconseja tratamiento de 30 min a 50 min en la parte corporal y en la facial hasta 30 min cada 14/21 dias, de acuerdo a lo indicado por el profesional previa su evaluación.<br />
                         Logrando:<br />
