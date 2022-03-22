@@ -2,6 +2,7 @@ import styles from './AboutMe.module.css';
 import Image from 'next/image';
 import aboutMeImg from '../../Assets/vic.jpeg';
 import React, { Component } from 'react';
+import Logo from '../../Assets/logo.png';
 
 export const AboutMe = () => {
   return (
@@ -14,7 +15,11 @@ export const AboutMe = () => {
         />
       </div>
       <div className={styles.aboutMeText}>
-        <h3 className={styles.aboutMeTitle}><b>VC BEAUTY</b></h3>
+        <Image className={styles.Image}
+          src={Logo}
+          width="60px"
+          height="60px"
+        />
         <hr />
         <p>
           Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.

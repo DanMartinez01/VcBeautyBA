@@ -1,13 +1,14 @@
 
 .container{
     display:flex;
-    margin-top: 0;
+    margin:1rem;
     padding-top:2rem;
 }
 .aboutMeTitle{
     font-family: 'Roboto', sans-serif;
     padding-top: .5rem;
     font-weight:normal;
+    color: #a18ac4;
 }
 .ImgWrapper{
   width: 100%;
