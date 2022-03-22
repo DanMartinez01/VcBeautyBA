@@ -41,9 +41,8 @@ a.navBarLink{
   letter-spacing: normal;
 }
 
-/* @media (max-width:600px){
-  .navBarColor{
-      padding:0px;
-      margin:0px;
+@media (max-width:800px) {
+  .Container{
+    padding-bottom: .1rem ;
   }
-} */
+}

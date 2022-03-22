@@ -10,7 +10,7 @@ import Logo from '../../Assets/logo.png';
 export const NavComponent = () => {
     return (
         <Navbar className={styles.navBarColor} expand="lg" fixed="top" >
-            < Container >
+            < Container className={styles.Container} >
                 <Navbar.Brand href="/">
                     <span className={styles.logoSpan}>
                         <Image
@@ -18,7 +18,7 @@ export const NavComponent = () => {
                             width="60px"
                             height="60px"
                         />
-                        <h6 className={styles.logoText}> vcbeauty</h6>
+                        <h6 className={styles.logoText}>vcbeauty</h6>
                     </span>
 
                 </Navbar.Brand>

@@ -3,9 +3,12 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
+.Carousel{
+    margin-bottom: 0px;
+}
 
 @media (max-width:800px){
     .container{
-        margin-top: 100px;
+        margin-top: 70px;
     }
 }
