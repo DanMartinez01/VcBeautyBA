@@ -22,6 +22,8 @@ export const Categories = () => {
                 {data.map((item) => (
                     <div className={styles.Card} key={item.id}>
                         <Image className={styles.categoriesImg}
+                            width="400px"
+                            height="250px"
                             src={item.file}
                             alt="Categorias"
                         />

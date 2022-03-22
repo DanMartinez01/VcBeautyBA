@@ -9,9 +9,9 @@
 .categoriesStripe{
     display: flex;
     width: 100%;
-    padding:1rem;
-    background-color:#ffdedf;
-    color: white;
+    padding:.5rem;
+    background-color:#f5be8a94;
+    color:#a18ac4;
     font-weight: 400;
     justify-items:center ;
 }
