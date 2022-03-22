@@ -52,8 +52,9 @@
         padding: 1rem;
         margin-top: 0px;
     }
-    .card{
+    .Card{
         width: 100%;
+        padding-top:.2rem;
     }
     .categoriesImg{
        width: 300px;
