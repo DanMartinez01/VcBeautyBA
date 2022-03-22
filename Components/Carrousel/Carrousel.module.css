@@ -3,8 +3,10 @@
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-.Carousel{
-    margin-bottom: 0px;
+.CarouselItem{
+    background-color: aqua;
+    padding-bottom: 0px;
+    margin-bottom: -8.5px;
 }
 
 @media (max-width:800px){

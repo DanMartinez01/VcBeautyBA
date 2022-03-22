@@ -11,7 +11,7 @@ export const Carrousel = () => {
     return (
         <div className={styles.container}>
             <Carousel controls={false} indicators={false}>
-                <Carousel.Item align="center">
+                <Carousel.Item align="center" className={styles.CarouselItem}>
                     <Image
                         className={styles.carouselImg}
                         src={CarImg1}
@@ -19,7 +19,7 @@ export const Carrousel = () => {
                         height="1100px"
                     />
                 </Carousel.Item >
-                <Carousel.Item align="center">
+                <Carousel.Item align="center" className={styles.CarouselItem}>
                     <Image
                         className={styles.carouselImg}
                         src={CarImg4}
@@ -27,7 +27,7 @@ export const Carrousel = () => {
                         height="1100px"
                     />
                 </Carousel.Item>
-                <Carousel.Item align="center">
+                <Carousel.Item align="center" className={styles.CarouselItem}>
                     <Image
                         className={styles.carouselImg}
                         src={CarImg3}
