@@ -16,12 +16,13 @@ const LocationPin = ({ text }) => (
 )
 const Maps = ({ location, zoomLevel }) => (
     <div>
+        <hr />
         <div className={styles.mapH2}>
-            <Image className={styles.Image}
+            {/* <Image className={styles.Image}
                 src={Logo}
                 width="60px"
                 height="60px"
-            />
+            /> */}
             Ubicación
         </div>
         {/* <hr /> */}

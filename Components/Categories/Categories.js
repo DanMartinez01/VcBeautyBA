@@ -10,12 +10,13 @@ import Logo from '../../Assets/logo.png';
 export const Categories = () => {
     return (
         <div>
+            <hr />
             <div className={styles.Header}>
-                <Image className={styles.Image}
+                {/* <Image className={styles.Image}
                     src={Logo}
                     width="60px"
                     height="60px"
-                />
+                /> */}
                 Servicios
             </div>
             <div className={styles.container}>

@@ -22,7 +22,9 @@
     color: #a18ac4;
 }
 
-
+.treatmentImg{
+    border-radius: 20px;
+}
 .title{
     align-items:baseline;
     justify-content:baseline;
@@ -45,7 +47,6 @@
     color: white;
     font-size: 16px;
     font-weight: 200;
-    letter-spacing: 1px;
     text-transform: uppercase;
     padding: 13px 50px 13px;
     outline: none;
@@ -70,10 +71,14 @@
     .container{
         flex-direction: column;
         padding: 1rem;
+        margin: 0 auto;
     }
     .treatmentText{
         padding: 1rem;
         margin: 0;
+    }
+    .button{
+        padding: 1rem ;
     }
 }
 @media (max-width:800px){

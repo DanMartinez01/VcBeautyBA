@@ -3,19 +3,19 @@
     flex-direction: row;
     flex-wrap: wrap;
     text-align: justify;
+    padding: .5rem;
 }
+
 .Header{
     display: flex;
     align-items: center;
     justify-content: center; 
     text-align: center;
     width: 100%;
-    height: 70px;
     color: #a18ac4;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size:x-large;
-    letter-spacing: 2px;
 }
 .categoriesImg{
     border-radius: 20px;
@@ -38,7 +38,7 @@
     color: #a18ac4;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size:x-large;
+    font-size:large;
     display: flex;
     align-items: center;
     justify-content: center;

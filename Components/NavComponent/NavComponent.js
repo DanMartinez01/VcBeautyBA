@@ -38,16 +38,8 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link ><Link href="/Asesorias" ><a className={styles.navBarLink}>Asesorías</a></Link></Nav.Link>
+                        <Nav.Link ><Link href="https://www.instagram.com/vc.beautyba/" ><a className={styles.navBarLink}>Turnos</a></Link></Nav.Link>
 
-                        {/* <Link href="/HigieneFacial/HigieneFacial">
-                            <a className={styles.navBarLink}>Corporal</a>
-                        </Link>
-                        <Link href="/HigieneFacial/HigieneFacial">
-                            <a className={styles.navBarLink}>Asesorías </a>
-                        </Link>
-                        <Link href="https://www.instagram.com/vc.beautyba/">
-                            <a className={styles.navBarLink}>Turnos</a>
-                        </Link> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container >
