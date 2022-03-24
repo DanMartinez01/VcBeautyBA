@@ -18,27 +18,25 @@
     font-size:x-large;
 }
 .categoriesImg{
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .Card{
     margin:auto;
     margin-bottom: 1rem;
     padding: 1rem;
-    border-radius: 20px;
-    background-color: #f4f3f3;
-    box-shadow: 5px 5px 10px 5px #E8E8E8;
+    border-radius: 10px;
 }
-.Card:hover{
+/* .Card:hover{
     transform: scale(1.1); 
-}
+} */
 
 .CardText{
     width: 100%;
     color: #a18ac4;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size:large;
+    font-size:medium;
     display: flex;
     align-items: center;
     justify-content: center;

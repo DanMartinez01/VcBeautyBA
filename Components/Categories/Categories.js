@@ -17,7 +17,7 @@ export const Categories = () => {
                     width="60px"
                     height="60px"
                 /> */}
-                Servicios
+                {/* Servicios */}
             </div>
             <div className={styles.container}>
                 {data.map((item) => (
@@ -28,6 +28,7 @@ export const Categories = () => {
                             src={item.file}
                             alt="Categorias"
                         />
+                        <hr />
                         <div className={styles.CardText}>
                             <Link href={item.route}>
                                 <a className={styles.CardText}>{item.title}</a>

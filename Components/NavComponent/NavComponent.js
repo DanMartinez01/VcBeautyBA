@@ -10,7 +10,7 @@ import Logo from '../../Assets/logo.png';
 export const NavComponent = () => {
     return (
         <Navbar className={styles.navBarColor} expand="lg" fixed="top" >
-            < Container className={styles.Container} >
+            <Container className={styles.Container} >
                 <Navbar.Brand href="/">
                     <span className={styles.logoSpan}>
                         <Image
@@ -20,12 +20,13 @@ export const NavComponent = () => {
                         />
                         <h6 className={styles.logoText}>vcbeauty</h6>
                     </span>
-
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
-                    <Nav className="me-auto">
-                        <NavDropdown title="Facial" className={styles.navBarLink}>
+                    <Nav className={styles.navBarLink}>
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="/Asesorias">Asesorías</Nav.Link>
+                        <NavDropdown title="Facial">
                             <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
                             <NavDropdown.Item href="/Peelings" className={styles.NavDropdown}>Peeling</NavDropdown.Item>
                             <NavDropdown.Item href="/GlowyLips" className={styles.NavDropdown}>Glowy lips</NavDropdown.Item>
@@ -33,13 +34,11 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/AntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
                             <NavDropdown.Item href="/Dermaplanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
                         </NavDropdown>
-                        <NavDropdown title="Aparatologia" className={styles.navBarLink}>
+                        <NavDropdown title="Aparatologia">
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link ><Link href="/Asesorias" ><a className={styles.navBarLink}>Asesorías</a></Link></Nav.Link>
-                        <Nav.Link ><Link href="https://www.instagram.com/vc.beautyba/" ><a className={styles.navBarLink}>Turnos</a></Link></Nav.Link>
-
+                        <Nav.Link href="/Asesorias">Turnos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container >
