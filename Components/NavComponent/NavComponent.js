@@ -18,7 +18,7 @@ export const NavComponent = () => {
                             width="60px"
                             height="60px"
                         />
-                        <h6 className={styles.logoText}>vcbeauty</h6>
+                        {/* <h6 className={styles.logoText}>vcbeauty</h6> */}
                     </span>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
