@@ -70,7 +70,8 @@
     }
     .buttonContainer{
         text-align: center;
-        padding: 1rem ;
+        margin: 0 auto;
+        
     }
 }
 @media (max-width:800px){
