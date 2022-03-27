@@ -10,11 +10,13 @@ export const Corporal = () => {
                 <h4 className={styles.categoriesTitle}>Asesorías</h4>
             </div>
             <div className={styles.container} >
-                <Image className={styles.treatmentImg}
-                    src={imgLimpieza}
-                    width="1800px"
-                    height="2400px"
-                />
+                <div className={styles.imgWrapper}>
+                    <Image className={styles.treatmentImg}
+                        src={imgLimpieza}
+                        width="1800px"
+                        height="2400px"
+                    />
+                </div>
                 <div className={styles.treatmentText}>
                     <p>
                         La mayoría de mis pacientes realizan asesorías online que incluye un diagnóstico de afecciones cutáneas en donde planteamos un objetivo alcanzable y posteriormente un diseño y armado de plan de rutinas y productos en base a lo que cada persona necesita,  a tu medida y que sea único y especial para vos. <br />

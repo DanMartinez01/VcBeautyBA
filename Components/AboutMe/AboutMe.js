@@ -22,7 +22,7 @@ export const AboutMe = () => {
         />
         <hr />
         <p>
-          Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.
+          <b>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC. </b>
           <br />
           Si bien siempre fui una apasionada de la estética y el cuidado personal, mi viaje comenzó cuando a los 24 sufrí un acné hormonal y mi vida cambio. Luego de recorrer cientos de dermatólogos y profesionales en piel sin ningún resultado, me dije a mi misma, algo tengo que hacer y manos a la obra, comencé con toda esta locura.
           <br />

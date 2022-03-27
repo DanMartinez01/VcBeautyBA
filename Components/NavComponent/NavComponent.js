@@ -24,7 +24,6 @@ export const NavComponent = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
                     <Nav className={styles.navBarLink}>
-                        <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="/Asesorias">Asesorías</Nav.Link>
                         <NavDropdown title="Facial">
                             <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
@@ -37,6 +36,11 @@ export const NavComponent = () => {
                         <NavDropdown title="Aparatologia">
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                        </NavDropdown>
+                        <NavDropdown title="Corporal">
+                            <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
+                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link href="/Asesorias">Turnos</Nav.Link>
                     </Nav>

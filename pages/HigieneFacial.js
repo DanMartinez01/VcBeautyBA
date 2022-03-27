@@ -10,11 +10,13 @@ export const Treatment = () => {
                 <h4 className={styles.categoriesTitle}>Asesorías</h4>
             </div>
             <div className={styles.container} >
-                <Image className={styles.treatmentImg}
-                    src={imgLimpieza}
-                    width="1800px"
-                    height="2400px"
-                />
+                <div className={styles.imgWrapper}>
+                    <Image className={styles.treatmentImg}
+                        src={imgLimpieza}
+                        width="1800px"
+                        height="2400px"
+                    />
+                </div>
                 <div className={styles.treatmentText}>
                     <p>
                         <h1 className={styles.title}>Higiene Facial</h1>
