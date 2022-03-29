@@ -15,14 +15,14 @@ export const AboutMe = () => {
         />
       </div>
       <div className={styles.aboutMeText}>
-        <Image className={styles.Image}
+        {/* <Image className={styles.Image}
           src={Logo}
           width="60px"
           height="60px"
-        />
+        /> */}
         <hr />
+        <h4><b>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC. </b></h4>
         <p>
-          <b>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC. </b>
           <br />
           Si bien siempre fui una apasionada de la estética y el cuidado personal, mi viaje comenzó cuando a los 24 sufrí un acné hormonal y mi vida cambio. Luego de recorrer cientos de dermatólogos y profesionales en piel sin ningún resultado, me dije a mi misma, algo tengo que hacer y manos a la obra, comencé con toda esta locura.
           <br />
@@ -33,9 +33,15 @@ export const AboutMe = () => {
           Hoy en dia, ya con mi primera sucursal funcionando puedo decir que toda esta locura tenia un fin. Desde mi lugar, atendemos a las personas y logramos entender que buscan y que necesitan. A las pieles hay que darle amor, muchas veces menos es mas y no se necesita de una gran cantidad de productos o de un buen status económico para cuidarse la piel.
           <br />
           Mi misión hoy en dia es lograr sacar la belleza de todas las pieles que atiendo a través de enfocarme en su salud. Para mi y para todo mi equipo la piel es salud y debe tratarse como tal, no me enfoco tanto en las mejorías estéticas sino en construir y enseñar habitos saludables para generar una buena educación y un buen cuidado de la piel, lo que a la larga genera una increíble mejora estética.
-          Te espero para que logremos todo esto juntas!
-          A la piel hay que darle amor
+          Te espero para que logremos todo esto juntas!<br />
+
         </p>
+        <h4><b>A la piel hay que darle amor</b></h4>
+        <Image className={styles.Image}
+          src={Logo}
+          width="60px"
+          height="60px"
+        />
       </div>
     </div>
   )
