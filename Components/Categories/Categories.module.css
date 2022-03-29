@@ -65,11 +65,10 @@
         padding: 1rem;
         margin-top: 0px;
     }
-    /* .Card{
-        width: 100%;
-        padding-top:.2rem;
-        
-    } */
+    .Card{
+        padding:1rem;
+    }
+   
     
     
 }
