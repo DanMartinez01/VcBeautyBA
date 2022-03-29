@@ -15,11 +15,11 @@ export const AboutMe = () => {
         />
       </div>
       <div className={styles.aboutMeText}>
-        {/* <Image className={styles.Image}
+        <Image className={styles.Image}
           src={Logo}
           width="60px"
           height="60px"
-        /> */}
+        />
         <hr />
         <h5 className={styles.quotes}>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.</h5>
         <p>
@@ -36,12 +36,8 @@ export const AboutMe = () => {
           Te espero para que logremos todo esto juntas!<br />
 
         </p>
-        <h5 className={styles.quotes}>A la piel hay que darle amor</h5>
-        <Image className={styles.Image}
-          src={Logo}
-          width="60px"
-          height="60px"
-        />
+        <h5 className={styles.quotes}>A la piel hay que darle amor
+        </h5>
       </div>
     </div>
   )
