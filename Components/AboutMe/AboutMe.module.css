@@ -26,6 +26,10 @@
     font-family:'CentaurMT';
     font-size:medium;
 }
+.quotes{
+    text-align: right;
+    font-weight: normal;
+}
 
 @media (max-width:1200px){
     .container{

@@ -21,7 +21,7 @@ export const AboutMe = () => {
           height="60px"
         /> */}
         <hr />
-        <h4><b>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC. </b></h4>
+        <h5 className={styles.quotes}>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.</h5>
         <p>
           <br />
           Si bien siempre fui una apasionada de la estética y el cuidado personal, mi viaje comenzó cuando a los 24 sufrí un acné hormonal y mi vida cambio. Luego de recorrer cientos de dermatólogos y profesionales en piel sin ningún resultado, me dije a mi misma, algo tengo que hacer y manos a la obra, comencé con toda esta locura.
@@ -36,7 +36,7 @@ export const AboutMe = () => {
           Te espero para que logremos todo esto juntas!<br />
 
         </p>
-        <h4><b>A la piel hay que darle amor</b></h4>
+        <h5 className={styles.quotes}>A la piel hay que darle amor</h5>
         <Image className={styles.Image}
           src={Logo}
           width="60px"
