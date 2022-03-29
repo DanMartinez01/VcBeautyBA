@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    text-align: justify;
-    padding: .5rem;
+    margin-top: 1rem;
 }
 
 .Header{
@@ -24,22 +23,35 @@
 .Card{
     margin:auto;
     margin-bottom: 1rem;
-    padding: 1rem;
-    border-radius: 10px;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.527);
 }
 /* .Card:hover{
     transform: scale(1.1); 
 } */
+.divider{
+    color:#f5be8a;
+    padding: .2rem;
+}
 
+.cardTitle{
+    text-align: center;
+    padding: 0px;
+    color: rgba(0, 0, 0, 0.589);
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
 .CardText{
     width: 100%;
-    color: #a18ac4;
+    color: rgba(0, 0, 0, 0.589);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    font-size:medium;
+    font-size:small;
     display: flex;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 .CardText:hover{
     color:gray;

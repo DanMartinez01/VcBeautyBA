@@ -10,17 +10,8 @@ import Logo from '../../Assets/logo.png';
 export const Categories = () => {
     return (
         <div>
-            <hr />
-            <div className={styles.Header}>
-                {/* <Image className={styles.Image}
-                    src={Logo}
-                    width="60px"
-                    height="60px"
-                /> */}
-                {/* Servicios */}
-            </div>
             <div className={styles.container}>
-                {data.map((item) => (
+                {/* {data.map((item) => (
                     <div className={styles.Card} key={item.id}>
                         <Image className={styles.categoriesImg}
                             width="400px"
@@ -37,7 +28,32 @@ export const Categories = () => {
                     </div>
 
                 ))
-                }
+                } */}
+                <div className={styles.Card}>
+                    <p className={styles.cardTitle}>Asesorias</p>
+                    <hr className={styles.divider} />
+                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
+                        Brindamos tratamientos personalizados.</p>
+                </div>
+                <div className={styles.Card}>
+                    <p className={styles.cardTitle}>Asesorias</p>
+                    <hr className={styles.divider} />
+                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
+                        Brindamos tratamientos personalizados.</p>
+                </div>
+                <div className={styles.Card}>
+                    <p className={styles.cardTitle}>Asesorias</p>
+                    <hr className={styles.divider} />
+                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
+                        Brindamos tratamientos personalizados.</p>
+                </div>
+                <div className={styles.Card}>
+                    <p className={styles.cardTitle}>Asesorias</p>
+                    <hr className={styles.divider} />
+                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
+                        Brindamos tratamientos personalizados.</p>
+                </div>
+
             </div >
         </div>
 
