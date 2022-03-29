@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/asesorias.jpg';
+import imgLimpieza from '../Assets/Facial1.jpg';
 
 export const Asesorias = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+                <h4 className={styles.categoriesTitle}>/Asesorías</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1800px"
-                        height="2400px"
+                        width="1200px"
+                        height="1600px"
                     />
                 </div>
 
