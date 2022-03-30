@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
 import peeling from '../Assets/peeling.jpg';
+import imgLimpieza from '../Assets/FacialTreatment.png';
 
 export const Peelings = () => {
     return (
@@ -10,11 +11,14 @@ export const Peelings = () => {
                 <h4 className={styles.categoriesTitle}>Asesorías</h4>
             </div>
             <div className={styles.container} >
-                <Image className={styles.treatmentImg}
-                    src={peeling}
-                    width="1800px"
-                    height="2400px"
-                />
+                <div className={styles.imgWrapper}>
+                    <Image className={styles.treatmentImg}
+                        src={imgLimpieza}
+                        width="1000px"
+                        height="1400px"
+                    />
+                </div>
+
                 <div className={styles.treatmentText}>
                     <p>
                         <h1 className={styles.title}>Peeling Quimico</h1>
