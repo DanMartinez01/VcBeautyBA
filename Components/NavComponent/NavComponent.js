@@ -29,19 +29,20 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
                             <NavDropdown.Item href="/Peelings" className={styles.NavDropdown}>Peeling</NavDropdown.Item>
                             <NavDropdown.Item href="/GlowyLips" className={styles.NavDropdown}>Glowy lips</NavDropdown.Item>
-                            <NavDropdown.Item href="/DermaFull" className={styles.NavDropdown}>Derma Full Face Vc</NavDropdown.Item>
                             <NavDropdown.Item href="/AntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
                             <NavDropdown.Item href="/Dermaplanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
+                            <NavDropdown.Item href="/PermanentMakeUp" className={styles.NavDropdown}>Permanent Make Up</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Aparatologia">
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Corporal">
-                            <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
-                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
-                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
+                            <NavDropdown.Item href="/RadioFrecuenciaCorp" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="/DepiDefinitiva" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
+                            <NavDropdown.Item href="/Himfu" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>
+                        <Nav.Link href="/DermaFull">Derma full face VC</Nav.Link>
                         <Nav.Link href="/Asesorias">Turnos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
