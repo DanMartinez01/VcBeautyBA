@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
 import peeling from '../Assets/peeling.jpg';
-import imgLimpieza from '../Assets/FacialTreatment.png';
+import imgLimpieza from '../Assets/lips.jpg';
 
 export const PermanentMakeUp = () => {
     return (
@@ -14,8 +14,8 @@ export const PermanentMakeUp = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1000px"
-                        height="1400px"
+                        width="1400px"
+                        height="1000px"
                     />
                 </div>
 

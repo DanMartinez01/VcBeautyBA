@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/Facial1.jpg';
+import imgLimpieza from '../Assets/depilacion.png';
 
 export const DepiDefinitiva = () => {
     return (
@@ -14,7 +14,7 @@ export const DepiDefinitiva = () => {
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
                         width="1000px"
-                        height="1400px"
+                        height="1000px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

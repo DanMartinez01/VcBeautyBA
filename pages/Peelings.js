@@ -20,7 +20,7 @@ export const Peelings = () => {
                 </div>
                 <div className={styles.treatmentText}>
                     <p>
-                        <h1 className={styles.title}>Peeling Quimico</h1>
+                        <h1 className={styles.title}>Peeling Químico</h1>
                         El peeling químico es un tratamiento estético de renovación cutanea en donde aplicamos sobre la capa cornea diferentes sustancias químicas para conseguir una exfoliación profunda y caída de las capas superficiales de la piel. Se utiliza para tratar lesiones como las cicatrices o lesiones derivadas del acné, y signos del envejecimiento como todo tipo de manchas (melasmas, léntigos solares, queratosis, etc.), arrugas y pérdida de luminosidad. <br />
                         En gabinete solemos utilizarlos para eliminar las arrugas, líneas de expresión,  cicatrices,  poros dilatados y las manchas, a la vez que estimulamos mediante otros activos la producción de colágeno o elastina de la piel, favoreciendo una mejora en la textura de la piel y aumentando, además, su luminosidad.<br />
                         La aplicación es sencilla y segura, el tratamiento es simple y no requiere de muchos cuidados posteriores. Luego de generar una preparación previa de la piel, aplicamos sustancias o activos químicos, normalmente ácidos,  que estimularán la renovación celular logrando una mejora bastante notoria.  Es normal tener una sensación de picor o quemazón durante el tratamiento que luego de transcurrido el tiempo necesario, se neutraliza y desaparece. <br />

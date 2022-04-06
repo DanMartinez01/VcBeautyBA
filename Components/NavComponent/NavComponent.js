@@ -32,6 +32,8 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/AntiAge" className={styles.NavDropdown}>Anti Age</NavDropdown.Item>
                             <NavDropdown.Item href="/Dermaplanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
                             <NavDropdown.Item href="/PermanentMakeUp" className={styles.NavDropdown}>Permanent Make Up</NavDropdown.Item>
+                            <NavDropdown.Item href="/DermaFull" className={styles.NavDropdown}>Derma full face VC</NavDropdown.Item>
+
                         </NavDropdown>
                         <NavDropdown title="Aparatologia">
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
@@ -42,8 +44,7 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/DepiDefinitiva" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
                             <NavDropdown.Item href="/Himfu" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="/DermaFull">Derma full face VC</Nav.Link>
-                        <Nav.Link href="/Asesorias">Turnos</Nav.Link>
+                        <Nav.Link href="https://wa.me/2348100000000">Turnos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container >
