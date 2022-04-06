@@ -24,7 +24,7 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta property="og:title" content="VCbeauty" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="https://vc-beauty-ba-quxzr3byy-danmartinez01.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FCarImg1.8cf4beaf.jpg&w=1920&q=75" />
+        <meta property="og:image" content="%PUBLIC_URL%/favicon.jpg" />
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
