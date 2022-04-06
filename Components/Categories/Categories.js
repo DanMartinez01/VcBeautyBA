@@ -33,8 +33,9 @@ export const Categories = () => {
                     <p className={styles.cardTitle}>Asesorías</p>
                     <hr className={styles.divider} />
                     <Link href="/Asesorias" >
-                        <a className={styles.CardText}>Asesorías personalizadas</a></Link>
-                    <br />
+                        <a className={styles.CardText}>Asesorías personalizadas</a>
+                    </Link>
+                    <p className={styles.CardText}>Recibi tu asesoramiento personalizado online</p>
                 </div>
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Facial</p>
