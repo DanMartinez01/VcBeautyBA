@@ -8,14 +8,14 @@ export const Peelings = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Peeling</h4>
+                <h4 className={styles.categoriesTitle}>/Peeling</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1000px"
-                        height="1400px"
+                        width="1400px"
+                        height="1600px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

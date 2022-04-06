@@ -7,7 +7,7 @@ export const DepiDefinitiva = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Depilacion Definitiva</h4>
+                <h4 className={styles.categoriesTitle}>/ Depilación Definitiva</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
@@ -19,7 +19,7 @@ export const DepiDefinitiva = () => {
                 </div>
                 <div className={styles.treatmentText}>
                     <p>
-                        <h1 className={styles.title}>Depilacion Definitiva</h1>
+                        <h1 className={styles.title}> Depilación Definitiva</h1>
                         En VC contamos con el método Soprano Ice Platinum, equipo vanguardista y de alta tecnología que permite tratar todo tipo de pieles, incluso las de fototipo VI y las bronceadas con rayos UVA y todo tipo de vello.<br />
                         Su tecnología de vanguardia combina las longitudes de onda de Alejandrita, diodo y Nd-Yag, en un solo pulso. Como resultado, el sistema aporta a su metodología de uso una capacidad de trabajo no conseguida hasta el momento. Además, su excelente capacidad de congelamiento en los cabezales hace que este método sea totalmente indoloro y agradable para los pacientes.<br />
                         Generalmente, este tipo de tratamientos se realiza en promedio de 8 a 10 sesiones y la frecuencia entre una y otra puede incluso variar. Se recomienda realizar un refuerzo cada 6 meses durante 2 años, todo dependiendo del caso y del paciente, a veces no es necesario.

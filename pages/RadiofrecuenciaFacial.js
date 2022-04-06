@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/5.jpg';
+import imgLimpieza from '../Assets/radiofrec.jpeg';
 
 export const RadiofrecuenciaFacial = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+                <h4 className={styles.categoriesTitle}>/Radiofrecuencia</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1000px"
+                        width="1500px"
                         height="1400px"
                     />
                 </div>
@@ -21,7 +21,6 @@ export const RadiofrecuenciaFacial = () => {
                 <div className={styles.treatmentText}>
                     <p>
                         <h1 className={styles.title}>Radiofrecuencia facial</h1>
-
                         Es un tratamiento indoloro y no invasivo –ya que no requiere inyecciones– que trabaja nuestra piel desde dentro hacia fuera aumentando la temperatura de los tejidos. Gracias a esto y el calor que reciben os fibroblastos, la radiofrecuencia aumenta la producción de colágeno, estimula la circulación, moviliza y disuelve la grasa y facilita el drenaje linfático.<br />
                         Consiste en la aplicación de ondas electromagnéticas de alta frecuencia sobre el rostro para tratar las diferentes capas de nuestra piel. Así, estas ondas o radiaciones electromagnéticas –que oscilan simultáneamente en los campos eléctrico y magnético– penetran en las capas más profundas de la dermis para actuar sobre ellas.<br />
                         <b>Beneficios:</b> <br />

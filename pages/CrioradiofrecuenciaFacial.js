@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/Facial1.jpg';
+import imgLimpieza from '../Assets/radiofrec.jpeg';
 
 export const CrioradiofrecuenciaFacial = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+                <h4 className={styles.categoriesTitle}>/Crioradiofrecuencia</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
                         width="1000px"
-                        height="1400px"
+                        height="1100px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
 import peeling from '../Assets/peeling.jpg';
-import imgLimpieza from '../Assets/FacialTreatment.png';
+import imgLimpieza from '../Assets/radiofrec.jpeg';
 
 export const RadioFrecuenciaCorp = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Radiofrecuencia Corporal</h4>
+                <h4 className={styles.categoriesTitle}>/Radiofrecuencia Corporal</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

@@ -7,7 +7,7 @@ export const Treatment = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+                <h4 className={styles.categoriesTitle}>/Higiene Facial</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
@@ -20,14 +20,19 @@ export const Treatment = () => {
                 <div className={styles.treatmentText}>
                     <p>
                         <h1 className={styles.title}>Higiene Facial</h1>
-                        <b> Higiene simple:</b> <br />
+                        <b> Higiene simple</b> <br />
                         La higiene simple (sin extracción) incluye preparación de la piel, limpieza, afinamiento de la capa córnea, aplicación de lociones, mascarillas afines y protección de la piel.Se cambia máscara según problemática.<br />
                         <b>Duración</b> 1 hora
                     </p>
                     <p>
-                        <b>Higiene profunda con extracciones:</b> <br />
+                        <b>Higiene profunda con extracciones</b> <br />
                         La higiene profunda con extracción incluye preparación de la piel, limpieza, afinamiento de la capa córnea, extracción de comedones, espinillas y pustulas (en el caso que hubiera), aplicación de lociones, mascarillas afines y protección de la piel.<br />
                         <b>Duración</b>: 1 y 30- 2 horas aproximadamente.
+                    </p>
+                    <p><b>Higienes clarificantes</b><br />
+                        Las higienes con complementos clarificantes tratan de disminuir en la mayor medida posible los restos de manchas previas o irregularidades en el tono de piel del paciente, sin la utilizacion de acidos afines. Incluyen una preparación de la piel, higiene, afinamiento de la capa córnea, extracción de comedones, espinillas y pustulas (en el caso que hubiera), aplicación de lociones, mascarillas afines y protección de la piel.<br />
+                        En las higienes clarificantes todos los productos que utiliza la profesional contienen activos que contribuyan a la despigmentación y clarificación de irregularidades cutáneas. Puede y suele combinarse con tratamientos de peeling, si tal es el caso el profesional evaluara lo que es mas indicado para cada caso.<br />
+                        <b>Duración:</b> el procedimiento dura aproximadamente 1 hora
                     </p>
                     <div className={styles.buttonContainer}>
                         <button className={styles.button}>Pedir turno</button>

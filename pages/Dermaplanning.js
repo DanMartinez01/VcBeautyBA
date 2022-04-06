@@ -7,7 +7,7 @@ export const Dermaplanning = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>Asesorías</h4>
+                <h4 className={styles.categoriesTitle}>/Dermaplanning</h4>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
