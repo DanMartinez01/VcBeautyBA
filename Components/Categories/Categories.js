@@ -30,32 +30,35 @@ export const Categories = () => {
                 ))
                 } */}
                 <div className={styles.Card}>
-                    <p className={styles.cardTitle}>Asesorias</p>
+                    <p className={styles.cardTitle}>Asesorías</p>
                     <hr className={styles.divider} />
-                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
-                        Brindamos tratamientos personalizados.</p>
+                    <Link href="/Asesorias" >
+                        <a className={styles.CardText}>Asesorías personalizadas</a></Link>
+                    <br />
                 </div>
                 <div className={styles.Card}>
-                    <p className={styles.cardTitle}>Asesorias</p>
+                    <p className={styles.cardTitle}>Facial</p>
                     <hr className={styles.divider} />
-                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
-                        Brindamos tratamientos personalizados.</p>
+                    <Link href="/HigieneFacial"><a className={styles.CardText}>Higiene facial</a></Link>
+                    <Link href="/Peelings"><a className={styles.CardText}>Peelings</a></Link>
+                    <Link href="AntiAge"><a className={styles.CardText}>Anti Age</a></Link>
                 </div>
                 <div className={styles.Card}>
-                    <p className={styles.cardTitle}>Asesorias</p>
+                    <p className={styles.cardTitle}>Permanent Make Up</p>
                     <hr className={styles.divider} />
-                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
-                        Brindamos tratamientos personalizados.</p>
+                    <Link href="/PermanentMakeUp"><a className={styles.CardText}>Micropigmentación de labios</a></Link>
                 </div>
                 <div className={styles.Card}>
-                    <p className={styles.cardTitle}>Asesorias</p>
+                    <p className={styles.cardTitle}>Corporal</p>
                     <hr className={styles.divider} />
-                    <p className={styles.CardText}>Resalta tu belleza sin perder naturalidad.<br />
-                        Brindamos tratamientos personalizados.</p>
+                    <Link href="/RadiofrecuenciaFacial" ><a className={styles.CardText}>Radiofrecuencia</a></Link>
+                    <Link href="/CrioradiofrecuenciaFacial" ><a className={styles.CardText}>Crioradiofrecuencia</a></Link>
+                    <Link href="/DepiDefinitiva"><a className={styles.CardText}>Depilación definitiva</a></Link>
+                    <Link href="/Himfu" ><a className={styles.CardText}>Himfu</a></Link>
                 </div>
 
             </div >
-        </div>
+        </div >
 
     )
 }
