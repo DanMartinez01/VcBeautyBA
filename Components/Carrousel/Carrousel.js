@@ -30,7 +30,7 @@ export const Carrousel = () => {
                 <Carousel.Item align="center" className={styles.CarouselItem}>
                     <Image
                         className={styles.carouselImg}
-                        src={CarImg2}
+                        src={Img15}
                         alt="Third slide"
                     />
                 </Carousel.Item>
