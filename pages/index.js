@@ -22,9 +22,9 @@ export default function Home() {
         <link rel="icon" href="%PUBLIC_URL%/logo1.png" />
         {/* Open Graph data  */}
         <meta property="og:type" content="article" />
-        <meta property="og:title" content="VCbeauty" />
+        <meta property="og:title" content="VC Veauty" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="%PUBLIC_URL%/favicon.jpg" />
+        <meta property="og:image" content="https://vc-beauty-ba.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.98e9604a.jpg&w=2048&q=75" />
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>
