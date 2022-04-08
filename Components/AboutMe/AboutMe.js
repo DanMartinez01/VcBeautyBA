@@ -10,8 +10,8 @@ export const AboutMe = () => {
       <div className={styles.ImgWrapper}>
         <Image className={styles.AboutMeImg}
           src={aboutMeImg}
-          width="2000px"
-          height="2400px"
+          width="1000px"
+          height="1600px"
         />
       </div>
       <div className={styles.aboutMeText}>

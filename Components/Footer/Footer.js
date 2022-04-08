@@ -27,7 +27,7 @@ export const Footer = () => {
                     </ui>
                 </div>
                 <div className={styles.col}>
-                    <a className={styles.footerLinks}>
+                    <a href="/" className={styles.footerLinks}>
                         Inicio
                     </a>
                     <br />
@@ -35,17 +35,19 @@ export const Footer = () => {
                         Tratamientos
                     </a>
                     <br />
-                    <a className={styles.footerLinks}>
+                    <a href="https://wa.me/+5491123428263"
+                        target="_blank"
+                        rel="noopener noreferrer" className={styles.footerLinks}>
                         Turnos
                     </a>
                 </div>
                 <div className={styles.col}>
                     <ui className="list-unstyled">
                         <a className={styles.footerLinks}
-                            href="https://wa.me/1111111111"
+                            href="https://wa.me/+5491123428263"
                             target="_blank"
                             rel="noopener noreferrer" >
-                            <SiWhatsapp color="white" /> 1111111111
+                            <SiWhatsapp color="white" /> 1123428263
                         </a>
                         <br />
                         <a className={styles.footerLinks} target="_blank" rel="noreferrer"

@@ -40,11 +40,11 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Corporal">
-                            <NavDropdown.Item href="/RadioFrecuenciaCorp" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                            {/* <NavDropdown.Item href="/RadioFrecuenciaCorp" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item> */}
                             <NavDropdown.Item href="/DepiDefinitiva" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
                             <NavDropdown.Item href="/Himfu" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="https://wa.me/2348100000000">Turnos</Nav.Link>
+                        <Nav.Link href="https://wa.me/+5491123428263">Turnos</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container >

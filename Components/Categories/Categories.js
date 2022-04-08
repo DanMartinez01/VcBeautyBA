@@ -42,7 +42,8 @@ export const Categories = () => {
                     <hr className={styles.divider} />
                     <Link href="/HigieneFacial"><a className={styles.CardText}>Higiene facial</a></Link>
                     <Link href="/Peelings"><a className={styles.CardText}>Peelings</a></Link>
-                    <Link href="AntiAge"><a className={styles.CardText}>Anti Age</a></Link>
+                    <Link href="/Dermaplanning"><a className={styles.CardText}>Dermaplanning</a></Link>
+                    <Link href="/RadiofrecuenciaFacial"><a className={styles.CardText}>Radiofrecuencia</a></Link>
                 </div>
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Permanent Make Up</p>

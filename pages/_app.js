@@ -22,7 +22,7 @@ function MyApp({ Component, pageProps }) {
       <>
         <div>
           <a
-            href="https://wa.me/2348100000000"
+            href="https://wa.me/+5491123428263"
             className="whatsapp_float"
             target="_blank"
             rel="noopener noreferrer"
