@@ -1,40 +1,47 @@
-
-.container{
-    font-family:'CentaurMT';
+.container {
+    font-family: 'CentaurMT';
     width: 100%;
     display: flex;
     flex-direction: row;
     padding: 4rem;
 }
-.categoriesStripe{
+
+.categoriesStripe {
     padding: 50px;
-    background-color:#f5be8a60;
+    background-color: #f5be8a60;
     width: 100%;
 }
-   
 
-.treatmentImg{
+.imgWrapper {
+    margin-top: 2rem;
+}
+
+.treatmentImg {
+
     border-radius: 20px;
 }
-.title{
-    align-items:baseline;
-    justify-content:baseline;
+
+.title {
+    align-items: baseline;
+    justify-content: baseline;
     align-self: baseline;
     font-size: 1.5rem;
 }
-.treatmentText{
+
+.treatmentText {
     padding: 2rem;
     padding-top: 2rem;
     font-size: 1rem;
 }
 
-.buttonContainer{
+.buttonContainer {
     text-align: right;
-    margin-right: 4rem ;
+    margin-right: 4rem;
 }
-.button{
+
+.button {
     font-family: 'Roboto', sans-serif;
-    background-color:#ffb4b4;
+    background-color: #ffb4b4;
     color: white;
     font-size: 16px;
     font-weight: 200;
@@ -45,15 +52,16 @@
     border-radius: 10px;
 }
 
-.a{
+.a {
     text-decoration: none;
 }
 
-@media (max-width:992px){
-    .categoriesStripe{
+@media (max-width:992px) {
+    .categoriesStripe {
         padding: 10px;
     }
-    .categoriesTitle{
+
+    .categoriesTitle {
         margin-top: 5rem;
         margin-left: .5rem;
         text-align: left;
@@ -61,26 +69,31 @@
         font-weight: 100;
         font-size: medium;
     }
-    .container{
+
+    .container {
         flex-direction: column;
         padding: 1rem;
         margin: 0 auto;
     }
-    .treatmentText{
+
+    .treatmentText {
         padding: 1rem;
         margin: 0;
     }
-    .buttonContainer{
+
+    .buttonContainer {
         text-align: center;
         margin: 0 auto;
-        
+
     }
 }
-@media (max-width:800px){
-.title{
-    text-align: left;
-}
-.treatmentText{
-    font-size: 14px;
-}
+
+@media (max-width:800px) {
+    .title {
+        text-align: left;
+    }
+
+    .treatmentText {
+        font-size: 14px;
+    }
 }

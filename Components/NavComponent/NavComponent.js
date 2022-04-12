@@ -33,14 +33,10 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/Dermaplanning" className={styles.NavDropdown}>Dermaplanning</NavDropdown.Item>
                             <NavDropdown.Item href="/PermanentMakeUp" className={styles.NavDropdown}>Permanent Make Up</NavDropdown.Item>
                             <NavDropdown.Item href="/DermaFull" className={styles.NavDropdown}>Derma full face VC</NavDropdown.Item>
-
-                        </NavDropdown>
-                        <NavDropdown title="Aparatologia">
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
-                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Corporal">
-                            {/* <NavDropdown.Item href="/RadioFrecuenciaCorp" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item> */}
+                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="/DepiDefinitiva" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
                             <NavDropdown.Item href="/Himfu" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>
