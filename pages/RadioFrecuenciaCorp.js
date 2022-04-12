@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import peeling from '../Assets/peeling.jpg';
 import imgLimpieza from '../Assets/radiofrec.jpeg';
 
 export const RadioFrecuenciaCorp = () => {
