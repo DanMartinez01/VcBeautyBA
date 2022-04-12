@@ -17,6 +17,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
+        <meta name="google-site-verification" content="TYckOGfqJo4GqLuUZZAN5x2aOKQLijoRtdasKeWSukU" />
         <title>VcBeautyBa</title>
         <meta name="VcBeautyBA" content="Estética, tratamientos faciales y corporales" />
         <link rel="icon" href="%PUBLIC_URL%/logo1.png" />
