@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/radiofrec.jpeg';
+import Crio from '../Assets/crioradiofrec.jpg';
 
 export const CrioradiofrecuenciaFacial = () => {
     return (
@@ -12,9 +12,9 @@ export const CrioradiofrecuenciaFacial = () => {
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
-                        src={imgLimpieza}
-                        width="1000px"
-                        height="1100px"
+                        src={Crio}
+                        width="1400px"
+                        height="1000px"
                     />
                 </div>
                 <div className={styles.treatmentText}>
@@ -33,7 +33,10 @@ export const CrioradiofrecuenciaFacial = () => {
                         </ul>
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>
+                                <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
+                        </button>
                     </div>
 
                 </div>

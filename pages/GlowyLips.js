@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/Facial1.jpg';
+import Lips from '../Assets/lips.jpg';
 
 export const GlowyLips = () => {
     return (
@@ -12,9 +12,9 @@ export const GlowyLips = () => {
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
-                        src={imgLimpieza}
-                        width="1000px"
-                        height="1400px"
+                        src={Lips}
+                        width="1400px"
+                        height="1000px"
                     />
                 </div>
                 <div className={styles.treatmentText}>
@@ -29,7 +29,10 @@ export const GlowyLips = () => {
                         Es un tratamiento indoloro que se realiza sin anestecia y es totalmente ambulatorio. El efecto de hidratación dura entre 6 a 7 días y se puede realizar 1 vez por semana sin contraindicaciones.
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>
+                                <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
+                        </button>
                     </div>
                 </div>
             </div>

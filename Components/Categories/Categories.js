@@ -49,6 +49,11 @@ export const Categories = () => {
                     <p className={styles.cardTitle}>Permanent Make Up</p>
                     <hr className={styles.divider} />
                     <Link href="/PermanentMakeUp"><a className={styles.CardText}>Micropigmentación de labios</a></Link>
+                    {/* <Link href="/PermanentMakeUp"><a className={styles.CardText}>Dermapen</a></Link>
+                    <Link href="/PermanentMakeUp"><a className={styles.CardText}>Derma Hidratación</a></Link> */}
+                    <p className={styles.CardText}>Dermapen</p>
+                    <p className={styles.CardText}>Derma Hidratación</p>
+                    <Link href="/DermaFull"><a className={styles.CardText}>Derma full face</a></Link>
                 </div>
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Corporal</p>

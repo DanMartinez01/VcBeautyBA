@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/Facial1.jpg';
+import dermaplanning from '../Assets/dermaplanning.jpg';
 
 export const Dermaplanning = () => {
     return (
@@ -12,9 +12,9 @@ export const Dermaplanning = () => {
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
-                        src={imgLimpieza}
-                        width="1000px"
-                        height="1400px"
+                        src={dermaplanning}
+                        width="1400px"
+                        height="1000px"
                     />
                 </div>
                 <div className={styles.treatmentText}>
@@ -28,7 +28,10 @@ export const Dermaplanning = () => {
 
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>
+                                <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
+                        </button>
                     </div>
 
                 </div>

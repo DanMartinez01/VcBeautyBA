@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import peeling from '../Assets/peeling.jpg';
 import imgLimpieza from '../Assets/lips.jpg';
 
 export const PermanentMakeUp = () => {
@@ -29,7 +28,10 @@ export const PermanentMakeUp = () => {
                         La micropigmentación de labios consta de dos sesiones, entre las cuales debe haber un intervalo de entre 6 y 10 semanas, en función de la piel y la edad del cliente. El tratamiento dura entre 2 y 3 años, dependiendo del tipo de piel y estilo de vida.
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>
+                                <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
+                        </button>
                     </div>
 
                 </div>

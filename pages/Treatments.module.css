@@ -45,8 +45,9 @@
     color: white;
     font-size: 16px;
     font-weight: 200;
+    text-decoration: none;
     text-transform: uppercase;
-    padding: 13px 50px 13px;
+    padding: 13px 30px 13px;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -54,6 +55,10 @@
 
 .a {
     text-decoration: none;
+}
+
+.button:hover {
+    color: gray;
 }
 
 @media (max-width:992px) {

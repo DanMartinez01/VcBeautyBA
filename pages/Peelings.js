@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import peeling from '../Assets/peeling.jpg';
 import imgLimpieza from '../Assets/FacialTreatment.png';
 
 export const Peelings = () => {
@@ -14,7 +13,7 @@ export const Peelings = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1200px"
+                        width="1400px"
                         height="1400px"
                     />
                 </div>
@@ -36,7 +35,10 @@ export const Peelings = () => {
 
                     </p>
                     <div className={styles.buttonContainer}>
-                        <button className={styles.button}>Pedir turno</button>
+                        <button className={styles.button}>
+                            <span className={styles.gradient}>
+                                <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
+                        </button>
                     </div>
 
                 </div>
