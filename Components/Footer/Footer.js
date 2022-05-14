@@ -31,14 +31,14 @@ export const Footer = () => {
                         Inicio
                     </a>
                     <br />
-                    <a className={styles.footerLinks}>
-                        Tratamientos
-                    </a>
-                    <br />
                     <a href="https://wa.me/+5491123428263"
                         target="_blank"
                         rel="noopener noreferrer" className={styles.footerLinks}>
                         Turnos
+                    </a>
+                    <br />
+                    <a href="/Asesorias" className={styles.footerLinks}>
+                        Asesorías
                     </a>
                 </div>
                 <div className={styles.col}>
