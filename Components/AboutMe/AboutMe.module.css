@@ -1,49 +1,52 @@
-
-.container{
-    display:flex;
-    padding-top:2rem;
+.container {
+    display: flex;
+    padding-top: 2rem;
 }
-.aboutMeTitle{
-    font-family: 'Roboto', sans-serif;
+
+.aboutMeTitle {
+    font-family: 'Quicksand', sans-serif;
     padding-top: .5rem;
-    font-weight:normal;
+    font-weight: normal;
     color: #a18ac4;
 }
 
-.ImgWrapper{
-  width: 100%;
-  object-fit: contain;
-  align-self: flex-start;
-  border-radius: 10px;
-  overflow: hidden;
-  margin: .5rem ;
+.ImgWrapper {
+    width: 100%;
+    object-fit: contain;
+    align-self: flex-start;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: .5rem;
 }
 
-.aboutMeText{
+.aboutMeText {
     flex: 1 1 auto;
     padding: .5rem;
     text-align: justify;
-    font-family:'CentaurMT';
-    font-size:medium;
+    font-family: 'Quicksand', sans-serif;
+    font-size: medium;
 }
-.quotes{
+
+.quotes {
     text-align: right;
-    font-weight: normal;
+    font-weight: bold;
     padding: .5rem;
 }
 
 
-@media (max-width:1200px){
-    .container{
-        flex-direction:column;
-        padding:0px;
+@media (max-width:1200px) {
+    .container {
+        flex-direction: column;
+        padding: 0px;
         margin: 0;
     }
-    .aboutMeText{
-        padding:1rem;
-        font-family:'CentaurMT';
+
+    .aboutMeText {
+        padding: 1rem;
+        font-family: 'CentaurMT';
     }
-    .ImgWrapper{
+
+    .ImgWrapper {
         width: 90%;
         align-self: center;
         border-radius: 20px;

@@ -18,7 +18,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <meta name="google-site-verification" content="TYckOGfqJo4GqLuUZZAN5x2aOKQLijoRtdasKeWSukU" />
-        <title>VCbeautyBA</title>
+        <title>VC beauty BA</title>
         <meta name="VCbeautyBA" content="Estética, tratamientos faciales y corporales" />
         <link rel="icon" href="%PUBLIC_URL%/logo1.png" />
         {/* Open Graph data  */}

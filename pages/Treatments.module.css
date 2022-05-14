@@ -1,5 +1,4 @@
 .container {
-    font-family: 'CentaurMT';
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -17,7 +16,6 @@
 }
 
 .treatmentImg {
-
     border-radius: 20px;
 }
 
@@ -29,6 +27,8 @@
 }
 
 .treatmentText {
+    font-family: 'Quicksand', sans-serif;
+    font-size: smaller;
     padding: 2rem;
     padding-top: 2rem;
     font-size: 1rem;
@@ -40,11 +40,11 @@
 }
 
 .button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: #ffb4b4;
     color: white;
-    font-size: 16px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 300;
     text-decoration: none;
     text-transform: uppercase;
     padding: 13px 30px 13px;
@@ -82,6 +82,7 @@
     }
 
     .treatmentText {
+        font-family: 'Quicksand', sans-serif;
         padding: 1rem;
         margin: 0;
     }
@@ -99,6 +100,7 @@
     }
 
     .treatmentText {
+
         font-size: 14px;
     }
 }

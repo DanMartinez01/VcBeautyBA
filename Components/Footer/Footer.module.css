@@ -1,45 +1,49 @@
-
 .mainFooter {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: medium;
     letter-spacing: 1px;
     color: #ffffff;
-    background-color:#2D2A26;
+    background-color: #2D2A26;
     padding: .2rem;
     position: relative;
     bottom: 0;
     width: 100%;
-    margin-bottom:0px;
+    margin-bottom: 0px;
     bottom: 0;
-  }
-.footerLinks{
-    color:white;
+}
+
+.footerLinks {
+    color: white;
     text-decoration: none;
     margin-bottom: 1rem;
     font-size: small;
 }
-.mainFooter a{
+
+.mainFooter a {
     margin-bottom: 1rem;
 }
+
 .mainFooter a:hover {
-    color:gray;
+    color: gray;
 }
-.row{
+
+.row {
     display: flex;
     flex-direction: row;
     text-align: left;
     margin: 1rem;
 }
-.col{
+
+.col {
     margin-right: 2rem;
 }
-.payments{
+
+.payments {
     margin-top: 1rem;
     display: inline-block
 }
 
-.brandName{
+.brandName {
     text-align: center;
     margin: 0px;
 }
-

@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 1rem;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .Header {
@@ -12,7 +13,6 @@
     text-align: center;
     width: 100%;
     color: #a18ac4;
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: x-large;
 }
@@ -46,8 +46,7 @@
     margin-bottom: 0px;
     color: rgba(0, 0, 0, 0.589);
     font-size: larger;
-    font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 .CardText {
@@ -59,9 +58,10 @@
     width: 100%;
     padding: .2rem;
     color: rgba(0, 0, 0, 0.589);
-    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     font-size: small;
+    font-weight: bold;
+
 }
 
 .CardText:hover {
