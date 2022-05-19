@@ -35,7 +35,9 @@ export const Categories = () => {
                     <Link href="/Asesorias" >
                         <a className={styles.CardText}>Asesorías personalizadas</a>
                     </Link>
-                    <p className={styles.CardText}>Recibi tu asesoramiento personalizado online</p>
+                    <Link href="/Asesorias" >
+                        <a className={styles.CardText}>Recibí tu asesoramiento personalizado online</a>
+                    </Link>
                 </div>
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Facial</p>

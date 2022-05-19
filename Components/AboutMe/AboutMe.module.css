@@ -14,7 +14,8 @@
     width: 100%;
     object-fit: contain;
     align-self: flex-start;
-    border-radius: 10px;
+
+    border-radius: 20px;
     overflow: hidden;
     margin: .5rem;
 }
@@ -36,7 +37,7 @@
 
 @media (max-width:1200px) {
     .container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         padding: 0px;
         margin: 0;
     }

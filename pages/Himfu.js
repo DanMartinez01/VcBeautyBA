@@ -13,8 +13,8 @@ export const Himfu = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={himfu}
-                        width="1400px"
-                        height="1000px"
+                        width="1600px"
+                        height="1200px"
                     />
                 </div>
 
@@ -25,7 +25,7 @@ export const Himfu = () => {
                         Son ondas sonoras de energía concentrada por ultrasonido que actúan haciendo un efecto termomecánico que consigue reducir el tejido graso subcutáneo sin dañar la dermis, epidermis ni tejidos adyacentes.<br />
                         Estas ondas de ultrasonido generan un incremento de la temperatura en el panículo adiposo provocando vibraciones de los adipocitos que llevan a la ruptura de la membrana celular con facilidad y a la liberación de triglicéridos que serán metabolizados por el hígado y usados como fuente de energía.<br />
                         Los resultados los vez a partir de la 1ra sesión, se aconseja tratamiento de 30 min a 50 min en la parte corporal hasta 30 min una vez por semana , de acuerdo a lo indicado por el profesional previa su evaluación.<br />
-                        Logrando:<br />
+                        <br />Logrando:<br />
                         <ul>
                             <li>    Promueve la lipolisis y refuerza la estructura dérmica para eliminar la celulitis.</li>
                             <li>  Aumento de la circulación que mejora el tejido subcutáneo graso facilitando su eliminación.</li>

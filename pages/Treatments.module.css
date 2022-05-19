@@ -77,8 +77,13 @@
 
     .container {
         flex-direction: column;
-        padding: 1rem;
+        padding: 0px;
         margin: 0 auto;
+    }
+
+    .treatmentImg {
+        width: 100%;
+        border-radius: 0px;
     }
 
     .treatmentText {
@@ -100,7 +105,6 @@
     }
 
     .treatmentText {
-
         font-size: 14px;
     }
 }
