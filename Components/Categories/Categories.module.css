@@ -1,3 +1,9 @@
+.Title {
+    text-align: center;
+    padding: .5rem;
+    margin-bottom: 0px;
+}
+
 .container {
     display: flex;
     flex-direction: row;

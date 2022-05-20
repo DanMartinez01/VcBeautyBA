@@ -10,25 +10,9 @@ import Logo from '../../Assets/logo.png';
 export const Categories = () => {
     return (
         <div>
+            <h2 className={styles.Title}>VC beauty BA</h2>
+            <h4 className={styles.Title}>Nuestros servicios:</h4>
             <div className={styles.container}>
-                {/* {data.map((item) => (
-                    <div className={styles.Card} key={item.id}>
-                        <Image className={styles.categoriesImg}
-                            width="400px"
-                            height="250px"
-                            src={item.file}
-                            alt="Categorias"
-                        />
-                        <hr />
-                        <div className={styles.CardText}>
-                            <Link href={item.route}>
-                                <a className={styles.CardText}>{item.title}</a>
-                            </Link>
-                        </div>
-                    </div>
-
-                ))
-                } */}
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Asesorías</p>
                     <hr className={styles.divider} />
