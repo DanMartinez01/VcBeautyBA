@@ -27,13 +27,6 @@ export const Carrousel = () => {
                         alt="Second slide"
                     />
                 </Carousel.Item>
-                <Carousel.Item align="center" className={styles.CarouselItem}>
-                    <Image
-                        className={styles.carouselImg}
-                        src={Img15}
-                        alt="Third slide"
-                    />
-                </Carousel.Item>
             </Carousel>
         </div>
 

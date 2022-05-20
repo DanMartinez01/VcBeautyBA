@@ -10,7 +10,6 @@ import Logo from '../../Assets/logo.png';
 export const Categories = () => {
     return (
         <div>
-            <h2 className={styles.Title}>VC beauty BA</h2>
             <h4 className={styles.Title}>Nuestros servicios:</h4>
             <div className={styles.container}>
                 <div className={styles.Card}>
