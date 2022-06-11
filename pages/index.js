@@ -20,12 +20,12 @@ export default function Home() {
         <meta name="google-site-verification" content="TYckOGfqJo4GqLuUZZAN5x2aOKQLijoRtdasKeWSukU" />
         <title>VC beauty BA</title>
         <meta name="VCbeautyBA" content="Estética, tratamientos faciales y corporales" />
-        <link rel="icon" href="%PUBLIC_URL%/logo1.png" />
+        <link rel="icon" href="https://www.vcbeautyba.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.786bdcbd.png&w=64&q=75" />
         {/* Open Graph data  */}
         <meta property="og:type" content="article" />
         <meta property="og:title" content="VC Beauty" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="https://vc-beauty-ba.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F15.98e9604a.jpg&w=2048&q=75" />
+        <meta property="og:image" content="https://www.vcbeautyba.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.786bdcbd.png&w=64&q=75.jpg" />
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
       </Head>

@@ -23,7 +23,7 @@ export const NavComponent = () => {
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse>
-                    <Nav className={styles.navBarLink}>
+                    <Nav className="justify-content-end" style={{ width: "100%" }}>
                         <Nav.Link href="/Asesorias">Asesorías</Nav.Link>
                         <NavDropdown title="Facial">
                             <NavDropdown.Item href="/HigieneFacial" className={styles.NavDropdown}>Higiene Facial</NavDropdown.Item>
