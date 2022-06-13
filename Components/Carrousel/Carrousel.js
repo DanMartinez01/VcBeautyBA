@@ -1,9 +1,6 @@
 import Image from 'next/dist/client/image';
 import styles from './Carrousel.module.css';
 import { Carousel } from 'react-bootstrap';
-import CarImg1 from '../../Assets/banner1.png';
-import CarImg2 from '../../Assets/banner2.png';
-import CarImg3 from '../../Assets/banner3.png';
 import Img15 from '../../Assets/15.jpg';
 import Img16 from '../../Assets/16.jpg';
 import React, { Component } from 'react';
