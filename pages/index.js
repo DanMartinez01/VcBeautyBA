@@ -25,6 +25,7 @@ export default function Home() {
         <meta property="og:title" content="VC Beauty" />
         <meta property="og:description" content="" />
         <link rel="icon" href="https://www.vcbeautyba.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.786bdcbd.png&w=64&q=75" />
+        <link rel="icon" href="https://www.vcbeautyba.com.ar/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.786bdcbd.png&w=64&q=75" />
         <meta property="og:image" content="" />
         <meta property="og:url" content="ENLACE PERMANENTE" />
         <meta property="og:site_name" content="NOMBRE DEL SITIO" />
