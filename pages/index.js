@@ -12,7 +12,6 @@ const location = {
   lng: -58.79535839590361,
 }
 
-
 export default function Home() {
   return (
     <div className={styles.container}>
