@@ -27,6 +27,8 @@
 }
 
 .treatmentText {
+    /* height: 500px;
+    overflow-y: scroll; */
     font-family: 'Quicksand', sans-serif;
     font-size: smaller;
     padding: 2rem;

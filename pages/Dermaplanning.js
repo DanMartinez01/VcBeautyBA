@@ -13,8 +13,8 @@ export const Dermaplanning = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={dermaplanning}
-                        width="1400px"
-                        height="1000px"
+                        width="1700px"
+                        height="1300px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

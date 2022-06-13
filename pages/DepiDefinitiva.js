@@ -13,8 +13,8 @@ export const DepiDefinitiva = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1400px"
-                        height="1000px"
+                        width="1600px"
+                        height="1200px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

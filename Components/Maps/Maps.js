@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import styles from './Maps.module.css';
-import Image from 'next/image';
 import GoogleMapReact from 'google-map-react';
 import { MdOutlineLocationOn } from 'react-icons/md';
-import Logo from '../../Assets/logo.png';
 
 
 const LocationPin = ({ text }) => (
     <div className={styles.pin}>
         <span>
-            <p className={styles.pinText}>{text}</p>
             <MdOutlineLocationOn size="32px" color="red" />
+            <p className={styles.pinText}>{text}</p>
         </span>
     </div >
 )

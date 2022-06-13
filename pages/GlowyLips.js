@@ -13,8 +13,8 @@ export const GlowyLips = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={Lips}
-                        width="1400px"
-                        height="1000px"
+                        width="1500px"
+                        height="1100px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

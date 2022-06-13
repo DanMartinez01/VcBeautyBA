@@ -13,8 +13,8 @@ export const Peelings = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1400px"
-                        height="1400px"
+                        width="1900px"
+                        height="1900px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

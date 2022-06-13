@@ -13,8 +13,8 @@ export const RadiofrecuenciaFacial = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1500px"
-                        height="1400px"
+                        width="1700px"
+                        height="1600px"
                     />
                 </div>
 

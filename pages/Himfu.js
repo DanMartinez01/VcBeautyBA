@@ -13,8 +13,8 @@ export const Himfu = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={himfu}
-                        width="1600px"
-                        height="1200px"
+                        width="1700px"
+                        height="1300px"
                     />
                 </div>
 

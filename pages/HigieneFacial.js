@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import imgLimpieza from '../Assets/Facial1.jpg';
+import imgLimpieza from '../Assets/skincare.jpg';
 
 export const Treatment = () => {
     return (
@@ -13,8 +13,8 @@ export const Treatment = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1000px"
-                        height="1400px"
+                        width="1900px"
+                        height="1600px"
                     />
                 </div>
                 <div className={styles.treatmentText}>

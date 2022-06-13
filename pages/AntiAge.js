@@ -13,8 +13,8 @@ export const AntiAge = () => {
                 <div className={styles.imgWrapper}>
                     <Image className={styles.treatmentImg}
                         src={imgLimpieza}
-                        width="1200px"
-                        height="1600px"
+                        width="1600px"
+                        height="1900px"
                     />
                 </div>
                 <div className={styles.treatmentText}>
