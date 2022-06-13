@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './Treatments.module.css';
 import Image from 'next/dist/client/image';
-import Ases from '../Assets/skincare.jpg';
+import Ases from '../Assets/Facial1.jpg';
 export const Asesorias = () => {
     return (
         <div>
