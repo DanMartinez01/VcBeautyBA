@@ -29,12 +29,12 @@ export const RadiofrecuenciaFacial = () => {
                         <b>Duración:</b> 40 minutos.
 
                     </p>
-                    <div className={styles.buttonContainer}>
+                    {/* <div className={styles.buttonContainer}>
                         <button className={styles.button}>
                             <span className={styles.gradient}>
                                 <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
                         </button>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

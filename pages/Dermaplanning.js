@@ -27,12 +27,12 @@ export const Dermaplanning = () => {
                         <b>Duracion:</b> el tratamiento dura aproximadamente 1 hora.
 
                     </p>
-                    <div className={styles.buttonContainer}>
+                    {/* <div className={styles.buttonContainer}>
                         <button className={styles.button}>
                             <span className={styles.gradient}>
                                 <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
                         </button>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>

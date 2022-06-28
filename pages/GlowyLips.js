@@ -28,12 +28,12 @@ export const GlowyLips = () => {
                         <br />
                         Es un tratamiento indoloro que se realiza sin anestecia y es totalmente ambulatorio. El efecto de hidratación dura entre 6 a 7 días y se puede realizar 1 vez por semana sin contraindicaciones.
                     </p>
-                    <div className={styles.buttonContainer}>
+                    {/* <div className={styles.buttonContainer}>
                         <button className={styles.button}>
                             <span className={styles.gradient}>
                                 <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

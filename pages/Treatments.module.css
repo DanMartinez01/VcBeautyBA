@@ -27,8 +27,6 @@
 }
 
 .treatmentText {
-    /* height: 500px;
-    overflow-y: scroll; */
     font-family: 'Quicksand', sans-serif;
     font-size: smaller;
     padding: 2rem;
@@ -36,9 +34,22 @@
     font-size: 1rem;
 }
 
+.seeMore {
+    display: flex;
+    margin: auto;
+    margin-top: .5rem;
+    color: black;
+    border: none;
+    padding: .4rem;
+    border-radius: 10px;
+}
+
 .buttonContainer {
+    display: flex;
+    /* align-items: flex-end;
     text-align: right;
-    margin-right: 4rem;
+    margin-right: 4rem; */
+    justify-content: center;
 }
 
 .button {
@@ -48,8 +59,7 @@
     font-size: 20px;
     font-weight: 300;
     text-decoration: none;
-    text-transform: uppercase;
-    padding: 13px 30px 13px;
+    padding: 8px 10px 8px;
     outline: none;
     border: none;
     border-radius: 10px;
@@ -110,3 +120,10 @@
         font-size: 14px;
     }
 }
+
+/* @media (max-width:400px) {
+    .treatmentText {
+        background-color: aqua;
+    }
+
+} */

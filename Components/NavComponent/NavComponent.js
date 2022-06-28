@@ -36,7 +36,7 @@ export const NavComponent = () => {
                             <NavDropdown.Item href="/RadiofrecuenciaFacial" className={styles.NavDropdown}>Radiofrecuencia</NavDropdown.Item>
                         </NavDropdown>
                         <NavDropdown title="Corporal">
-                            <NavDropdown.Item href="/CrioradiofrecuenciaFacial" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
+                            <NavDropdown.Item href="/Crioradiofrecuencia" className={styles.NavDropdown}>Crioradiofrecuencia</NavDropdown.Item>
                             <NavDropdown.Item href="/DepiDefinitiva" className={styles.NavDropdown}>Depilacion definitiva</NavDropdown.Item>
                             <NavDropdown.Item href="/Himfu" className={styles.NavDropdown}>Himfu</NavDropdown.Item>
                         </NavDropdown>

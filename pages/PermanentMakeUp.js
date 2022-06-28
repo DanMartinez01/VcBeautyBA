@@ -27,12 +27,12 @@ export const PermanentMakeUp = () => {
                         Este tratamiento nos brinda la posibilidad de lucir labios perfectos en cualquier momento consiguiendo armonía facial al dar volumen,  neutralizar, aportar naturalidad y acabar con las asimetrias.<br />
                         La micropigmentación de labios consta de dos sesiones, entre las cuales debe haber un intervalo de entre 6 y 10 semanas, en función de la piel y la edad del cliente. El tratamiento dura entre 2 y 3 años, dependiendo del tipo de piel y estilo de vida.
                     </p>
-                    <div className={styles.buttonContainer}>
+                    {/* <div className={styles.buttonContainer}>
                         <button className={styles.button}>
                             <span className={styles.gradient}>
                                 <a href="https://wa.me/+5491123428263" className={styles.button}>Pedir turno</a></span>
                         </button>
-                    </div>
+                    </div> */}
 
                 </div>
             </div>
