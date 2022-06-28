@@ -6,7 +6,6 @@
 }
 
 .categoriesStripe {
-    padding: 50px;
     width: 100%;
     margin-bottom: 0px;
 }
@@ -118,5 +117,10 @@
 
     .treatmentText {
         font-size: 14px;
+    }
+
+    .container {
+
+        padding: 0rem;
     }
 }
