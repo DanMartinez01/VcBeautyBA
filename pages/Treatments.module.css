@@ -37,10 +37,14 @@
     display: flex;
     margin: auto;
     margin-top: .5rem;
-    color: black;
+    color: gray;
     border: none;
-    padding: .4rem;
-    border-radius: 10px;
+    background-color: white;
+    text-decoration: underline;
+}
+
+.seeMore:hover {
+    color: black;
 }
 
 .buttonContainer {
