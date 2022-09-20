@@ -9,7 +9,7 @@ export const Crioradiofrecuencia = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Crioradiofrecuencia</h4>
+                <p className={styles.categoriesTitle}>/Crioradiofrecuencia</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

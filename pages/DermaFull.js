@@ -7,7 +7,7 @@ export const DermaFull = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Derma full face VC</h4>
+                <p className={styles.categoriesTitle}>/Derma full face VC</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

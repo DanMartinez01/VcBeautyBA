@@ -6,7 +6,7 @@ export const Asesorias = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Asesorías</h4>
+                <p className={styles.categoriesTitle}>/Asesorías</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

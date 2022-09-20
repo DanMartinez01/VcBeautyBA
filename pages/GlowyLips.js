@@ -7,7 +7,7 @@ export const GlowyLips = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Glowy Lips</h4>
+                <p className={styles.categoriesTitle}>/Glowy Lips</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

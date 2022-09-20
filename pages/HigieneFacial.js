@@ -8,7 +8,7 @@ export const Treatment = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Higiene Facial</h4>
+                <p className={styles.categoriesTitle}>/Higiene Facial</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

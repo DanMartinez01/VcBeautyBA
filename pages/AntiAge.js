@@ -8,7 +8,7 @@ export const AntiAge = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Anti age</h4>
+                <p className={styles.categoriesTitle}>/Anti age</p>
             </div>
             <div className={styles.container}>
                 <div className={styles.imgWrapper}>

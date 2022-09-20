@@ -6,8 +6,21 @@
 }
 
 .categoriesStripe {
+    display: flex;
+    align-items: center;
+    text-align: left;
     width: 100%;
     margin-bottom: 0px;
+    background-color: #a18ac4;
+    padding: 10px;
+}
+
+.categoriesStripe p {
+    display: flex;
+    color: white;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-left: 100px;
 }
 
 .imgWrapper {

@@ -7,7 +7,7 @@ export const PermanentMakeUp = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Permanent MakeUp</h4>
+                <p className={styles.categoriesTitle}>/Permanent MakeUp</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

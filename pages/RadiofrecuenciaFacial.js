@@ -8,7 +8,7 @@ export const RadiofrecuenciaFacial = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Radiofrecuencia</h4>
+                <p className={styles.categoriesTitle}>/Radiofrecuencia</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

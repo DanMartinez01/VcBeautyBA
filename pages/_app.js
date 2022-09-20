@@ -3,7 +3,7 @@ import '../styles/globals.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { SSRProvider } from '@react-aria/ssr';
 import Link from 'next/dist/client/link';
-
+import ContactStripe from '../Components/ContactStripe/ContactStripe';
 import NavComponent from '../Components/NavComponent/NavComponent';
 import Footer from '../Components/Footer/Footer';
 import { SiWhatsapp, SiInstagram } from 'react-icons/si';
@@ -46,11 +46,4 @@ function MyApp({ Component, pageProps }) {
   )
 
 }
-
 export default MyApp
-        // <Carrousel />
-        // <Categories />
-        // <button>
-        //   <Link href='/Treatment'>Treatments</Link>
-        // </button>
-        // <InfoSection />

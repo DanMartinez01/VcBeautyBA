@@ -1,0 +1,11 @@
+.contacto {
+    background-color: lightslategrey;
+    width: 100%;
+    padding: 40px;
+    height: 40px;
+}
+
+.bannerText {
+    color: black;
+    font-size: 16px;
+}

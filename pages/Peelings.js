@@ -8,7 +8,7 @@ export const Peelings = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Peeling</h4>
+                <p className={styles.categoriesTitle}>/Peeling</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>

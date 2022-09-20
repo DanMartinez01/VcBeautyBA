@@ -8,7 +8,7 @@ export const Himfu = () => {
     return (
         <div>
             <div className={styles.categoriesStripe}>
-                <h4 className={styles.categoriesTitle}>/Himfu</h4>
+                <p className={styles.categoriesTitle}>/Himfu</p>
             </div>
             <div className={styles.container} >
                 <div className={styles.imgWrapper}>
