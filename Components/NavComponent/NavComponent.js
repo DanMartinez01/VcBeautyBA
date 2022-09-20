@@ -19,10 +19,13 @@ export const NavComponent = () => {
                     <p>Contacto: (+54 ) 9 1123428263</p>
                 </div>
                 <div className={styles.icons}>
-                    <p className={styles.icon} >Seguinos: </p>
-                    <Link href=""><FaInstagram className={styles.icon} color='gray' /></Link>
-                    <Link href=""><ImFacebook color='gray' className={styles.icon} /></Link>
-                    <Link href=""><SiWhatsapp color='gray' className={styles.icon} /></Link>
+                    <p>Seguinos: </p>
+                    <a href="https://www.instagram.com/vc.beautyba/"><FaInstagram className={styles.icon} color='gray' /></a>
+                    <a href="https://www.facebook.com/VC-Beauty-tips-107597083987827"><ImFacebook color='gray' className={styles.icon} /></a>
+                    <a href="https://wa.me/+5491123428263"
+                        target="_blank"
+                        rel="noopener noreferrer" ><SiWhatsapp color='gray' className={styles.icon} />
+                    </a>
                 </div>
             </div>
             <Navbar className={styles.navBarColor} expand="lg" sticky='top' >
