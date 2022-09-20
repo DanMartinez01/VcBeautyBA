@@ -12,17 +12,10 @@ export const AboutMe = () => {
           src={aboutMeImg}
           width="1000px"
           height="1600px"
+          alt="Sobre mi"
         />
       </div>
       <div className={styles.aboutMeText}>
-        {/* <div className={styles.ImgWrapper}>
-          <Image className={styles.Image}
-            src={Logo}
-            width="60px"
-            height="60px"
-          />
-        </div> */}
-
         <hr />
         <h5 className={styles.quotes}>Soy Vicky Cancellieri, cosmetóloga profesional, auxiliar en cosmiatria, dermopigmentadora y fundadora de VC.</h5>
         <p>

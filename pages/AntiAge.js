@@ -16,6 +16,7 @@ export const AntiAge = () => {
                         src={imgLimpieza}
                         width="1600px"
                         height="1900px"
+                        alt="Tratamiento anti-age"
                     />
                 </div>
                 <div>

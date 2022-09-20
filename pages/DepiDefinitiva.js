@@ -15,6 +15,7 @@ export const DepiDefinitiva = () => {
                         src={imgLimpieza}
                         width="1400px"
                         height="1400px"
+                        alt="Depilación Definitiva"
                     />
                 </div>
                 <div className={styles.treatmentText}>

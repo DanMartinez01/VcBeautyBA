@@ -20,11 +20,16 @@ export const NavComponent = () => {
                 </div>
                 <div className={styles.icons}>
                     <p>Seguinos: </p>
-                    <a href="https://www.instagram.com/vc.beautyba/"><FaInstagram className={styles.icon} color='gray' /></a>
-                    <a href="https://www.facebook.com/VC-Beauty-tips-107597083987827"><ImFacebook color='gray' className={styles.icon} /></a>
+                    <a href="https://www.instagram.com/vc.beautyba/">
+                        <FaInstagram className={styles.icon} color='gray' alt="Instagram" />
+                    </a>
+                    <a href="https://www.facebook.com/VC-Beauty-tips-107597083987827">
+                        <ImFacebook color='gray' className={styles.icon} alt="Facebook" />
+                    </a>
                     <a href="https://wa.me/+5491123428263"
                         target="_blank"
-                        rel="noopener noreferrer" ><SiWhatsapp color='gray' className={styles.icon} />
+                        rel="noopener noreferrer" >
+                        <SiWhatsapp color='gray' className={styles.icon} alt="Whatsapp" />
                     </a>
                 </div>
             </div>
@@ -36,8 +41,9 @@ export const NavComponent = () => {
                                 src={Logo}
                                 width="60px"
                                 height="60px"
+                                alt="Vc Beauty BA"
                             />
-                            <h3 className={styles.logoText}>vcbeauty</h3>
+                            <h3 className={styles.logoText} alt="VC beauty BA">vcbeauty</h3>
                         </span>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

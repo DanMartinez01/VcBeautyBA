@@ -15,6 +15,7 @@ export const PermanentMakeUp = () => {
                         src={imgLimpieza}
                         width="1400px"
                         height="1000px"
+                        alt="Maquillaje permanente"
                     />
                 </div>
 

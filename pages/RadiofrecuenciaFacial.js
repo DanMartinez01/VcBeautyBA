@@ -16,6 +16,7 @@ export const RadiofrecuenciaFacial = () => {
                         src={imgLimpieza}
                         width="1700px"
                         height="1600px"
+                        alt="Radiofrecuencia"
                     />
                 </div>
                 <div>

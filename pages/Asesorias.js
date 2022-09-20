@@ -14,6 +14,7 @@ export const Asesorias = () => {
                         src={Ases}
                         width="1500px"
                         height="1900px"
+                        alt="Asesorías"
                     />
                 </div>
                 <div className={styles.treatmentText}>

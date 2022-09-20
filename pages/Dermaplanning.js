@@ -15,6 +15,7 @@ export const Dermaplanning = () => {
                         src={dermaplanning}
                         width="1700px"
                         height="1300px"
+                        alt="Dermaplanning"
                     />
                 </div>
                 <div className={styles.treatmentText}>

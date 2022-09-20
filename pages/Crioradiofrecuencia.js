@@ -17,6 +17,7 @@ export const Crioradiofrecuencia = () => {
                         src={Crio}
                         width="1700px"
                         height="1300px"
+                        alt="Crioradiofrecuencia"
                     />
                 </div>
                 <div>

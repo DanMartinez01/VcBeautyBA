@@ -16,6 +16,7 @@ export const Himfu = () => {
                         src={himfu}
                         width="1700px"
                         height="1300px"
+                        alt="Himfu"
                     />
                 </div>
                 <div>

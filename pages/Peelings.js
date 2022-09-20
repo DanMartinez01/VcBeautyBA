@@ -16,6 +16,7 @@ export const Peelings = () => {
                         src={imgLimpieza}
                         width="1900px"
                         height="1900px"
+                        alt="Peeling"
                     />
                 </div>
                 <div>

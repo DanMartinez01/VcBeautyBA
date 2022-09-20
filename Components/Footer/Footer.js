@@ -23,6 +23,7 @@ export const Footer = () => {
                             src={Logo}
                             width="50px"
                             height="50px"
+                            alt="VC Beauty BA logo"
                         />
                     </ui>
                 </div>
@@ -47,17 +48,17 @@ export const Footer = () => {
                             href="https://wa.me/+5491123428263"
                             target="_blank"
                             rel="noopener noreferrer" >
-                            <SiWhatsapp color="white" /> 1123428263
+                            <SiWhatsapp color="white" alt="Whatsapp" /> 1123428263
                         </a>
                         <br />
                         <a className={styles.footerLinks} target="_blank" rel="noreferrer"
                             href="https://www.facebook.com/VC-Beauty-tips-107597083987827">
-                            <ImFacebook color="white" /> Facebook
+                            <ImFacebook color="white" alt="Facebook" /> Facebook
                         </a>
                         <br />
                         <a className={styles.footerLinks} target="_blank" rel="noreferrer"
                             href="https://www.instagram.com/vc.beautyba/">
-                            <FaInstagram color="white" /> Instagram
+                            <FaInstagram color="white" alt="Instagram" /> Instagram
                         </a>
                     </ui>
                 </div>

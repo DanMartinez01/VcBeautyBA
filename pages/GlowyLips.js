@@ -15,6 +15,7 @@ export const GlowyLips = () => {
                         src={Lips}
                         width="1500px"
                         height="1100px"
+                        alt="Glowy lips"
                     />
                 </div>
                 <div className={styles.treatmentText}>

@@ -16,6 +16,7 @@ export const Treatment = () => {
                         src={imgLimpieza}
                         width="1900px"
                         height="1600px"
+                        alt="Higiene facial"
                     />
                 </div>
                 <div >

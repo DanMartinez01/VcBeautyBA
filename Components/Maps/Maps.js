@@ -16,20 +16,15 @@ const Maps = ({ location, zoomLevel }) => (
     <div>
         <hr />
         <div className={styles.mapH2}>
-            {/* <Image className={styles.Image}
-                src={Logo}
-                width="60px"
-                height="60px"
-            /> */}
             Ubicación
         </div>
-        {/* <hr /> */}
         <div className={styles.map}>
             <div className={styles.googleMap}>
                 <GoogleMapReact
                     bootstrapURLKeys={{ key: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY }}
                     defaultCenter={location}
                     defaultZoom={zoomLevel}
+                    alt="Google maps"
                 >
                     <LocationPin
                         lat={location.lat}

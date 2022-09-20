@@ -14,14 +14,14 @@ export const Carrousel = () => {
                     <Image
                         className={styles.carouselImg}
                         src={Img15}
-                        alt="First slide"
+                        alt="Vc Beauty BA"
                     />
                 </Carousel.Item >
                 <Carousel.Item align="center" className={styles.CarouselItem}>
                     <Image
                         className={styles.carouselImg}
                         src={Img16}
-                        alt="Second slide"
+                        alt="Vc Beauty BA"
                     />
                 </Carousel.Item>
             </Carousel>

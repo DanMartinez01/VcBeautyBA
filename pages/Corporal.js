@@ -15,6 +15,7 @@ export const Corporal = () => {
                         src={imgLimpieza}
                         width="1000px"
                         height="1400px"
+                        alt="Tratamientos corporales"
                     />
                 </div>
                 <div className={styles.treatmentText}>

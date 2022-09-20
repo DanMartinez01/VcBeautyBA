@@ -10,7 +10,7 @@ import Logo from '../../Assets/logo.png';
 export const Categories = () => {
     return (
         <div>
-            <h4 className={styles.Title}>Nuestros servicios:</h4>
+            <h4 className={styles.Title} alt="Nuestros servicios">Nuestros servicios:</h4>
             <div className={styles.container}>
                 <div className={styles.Card}>
                     <p className={styles.cardTitle}>Asesorías</p>
@@ -34,8 +34,6 @@ export const Categories = () => {
                     <p className={styles.cardTitle}>Permanent Make Up</p>
                     <hr className={styles.divider} />
                     <Link href="/PermanentMakeUp"><a className={styles.CardText}>Micropigmentación de labios</a></Link>
-                    {/* <Link href="/PermanentMakeUp"><a className={styles.CardText}>Dermapen</a></Link>
-                    <Link href="/PermanentMakeUp"><a className={styles.CardText}>Derma Hidratación</a></Link> */}
                     <p className={styles.CardText}>Dermapen</p>
                     <p className={styles.CardText}>Derma Hidratación</p>
                     <Link href="/DermaFull"><a className={styles.CardText}>Derma full face</a></Link>

@@ -15,6 +15,7 @@ export const DermaFull = () => {
                         src={imgLimpieza}
                         width="1500px"
                         height="1900px"
+                        alt="Derma full face VC"
                     />
                 </div>
                 <div className={styles.treatmentText}>
