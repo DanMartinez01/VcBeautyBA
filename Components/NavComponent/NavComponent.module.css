@@ -91,3 +91,11 @@
     padding-bottom: 0rem;
   }
 }
+
+@media (max-width:380px) {
+  .contact p {
+    display: flex;
+    font-size: 10px;
+    padding: 1px;
+  }
+}

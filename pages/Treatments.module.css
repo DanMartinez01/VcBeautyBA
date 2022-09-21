@@ -19,6 +19,7 @@
     display: flex;
     color: white;
     font-size: 16px;
+    width: 100%;
     margin: 0 auto;
     margin-left: 100px;
 }
@@ -90,22 +91,13 @@
 }
 
 @media (max-width:992px) {
-    /* .categoriesStripe {
-        padding: 10px;
-    }
-
-    .categoriesTitle {
-        margin-top: 5rem;
-        margin-left: .5rem;
-        text-align: left;
-        color: black;
-        font-weight: 100;
-        font-size: medium;
-    } */
-
     .container {
         flex-direction: column;
         padding: 0px;
+        margin: 0 auto;
+    }
+
+    .categoriesStripe p {
         margin: 0 auto;
     }
 
@@ -137,7 +129,6 @@
     }
 
     .container {
-
         padding: 0rem;
     }
 }
